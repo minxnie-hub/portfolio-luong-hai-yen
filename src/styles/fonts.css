@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'YenSans';
+  src: local('Be Vietnam Pro'), local('Be Vietnam'), local('Noto Sans'),
+    local('Segoe UI');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YenSans';
+  src: local('Be Vietnam Pro Italic'), local('Be Vietnam Italic'),
+    local('Noto Sans Italic'), local('Segoe UI Italic');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  font-family: 'YenSans', 'Be Vietnam Pro', 'Noto Sans', 'Segoe UI',
+    system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+}
+
+html,
+body,
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

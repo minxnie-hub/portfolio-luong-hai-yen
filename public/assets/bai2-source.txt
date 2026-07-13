@@ -1,0 +1,255 @@
+BÁO CÁO: TÌM KIẾM VÀ ĐÁNH GIÁ THÔNG TIN HỌC THUẬT 
+I. CHỦ ĐỀ VÀ PHẠM VI NGHIÊN CỨU 
+● Chủ đề: Ứng dụng của Trí tuệ nhân tạo (AI) trong giáo dục ngôn ngữ 
+và giảng dạy ngoại ngữ tại Việt Nam. 
+● Phạm vi tìm kiếm: Các nghiên cứu về ChatGPT, AI chatbot, AI-
+powered learning tools và ứng dụng AI trong dạy – học ngoại ngữ 
+được xuất bản từ năm 2023 đến năm 2025. 
+● Chiến lược tìm kiếm: Sử dụng từ khóa tiếng Anh và tiếng Việt như 
+“AI in language education”, “ChatGPT in language learning”, “AI 
+language teaching Vietnam”, “artificial intelligence in foreign language 
+education”, “AI chatbot language learning” trên Google Scholar, 
+DOAJ, Vietnam Journal of Education, International Journal of TESOL 
+& Education và các tạp chí khoa học giáo dục uy tín. 
+II. BẢNG TỔNG HỢP VÀ ĐÁNH GIÁ ĐỘ TIN CẬY CỦA NGUỒN THÔNG 
+TIN 
+STT Tác giả & Tài liệu Loại nguồn Đánh giá độ tin cậy (5 tiêu 
+chí) 
+Xếp 
+hạng 
+1 Pham, T. N. & 
+Dang, T. X. (2025). 
+An Investigation 
+into the Application 
+of Artificial 
+Intelligence for 
+Language 
+Teaching and 
+Learning in 
+Vietnam 
+Bài báo khoa 
+học (Vietnam 
+Journal of 
+Education) 
+Đây là nguồn có độ tin cậy rất 
+cao vì nghiên cứu được thực 
+hiện trực tiếp tại Việt Nam với 
+quy mô khảo sát lớn gồm 
+khoảng 200 giảng viên và 700 
+sinh viên tại nhiều trường đại 
+học. Công trình được công bố 
+trên tạp chí học thuật có DOI 
+chính thức và sử dụng các 
+phương pháp phân tích thống 
+kê rõ ràng. Dữ liệu thực 
+Rất cao 
+
+nghiệm phản ánh trực tiếp 
+thực trạng sử dụng AI trong 
+dạy và học ngoại ngữ tại Việt 
+Nam. 
+2 Li, B., Lowell, V. 
+L., Wang, C. & Li, 
+X. (2024). A 
+Systematic Review 
+of the First Year of 
+Publications on 
+ChatGPT and 
+Language 
+Education 
+Bài báo khoa 
+học quốc tế 
+(Elsevier) 
+Đây là nghiên cứu tổng quan 
+hệ thống sử dụng phương 
+pháp PRISMA để đánh giá 
+toàn bộ các công trình nghiên 
+cứu về ChatGPT trong giáo 
+dục ngôn ngữ giai đoạn 2022–
+2023. Công trình được xuất 
+bản trên tạp chí thuộc hệ thống 
+Elsevier và có tính học thuật 
+rất cao nhờ quy trình tổng hợp 
+dữ liệu nghiêm ngặt. 
+Rất cao 
+3 Hieu, H. H. & 
+Thao, L. T. (2024). 
+Exploring the 
+Impact of AI in 
+Language 
+Education: 
+Vietnamese EFL 
+Teachers’ Views 
+on Using ChatGPT 
+for Fairy Tale 
+Retelling Tasks 
+Bài báo khoa 
+học quốc tế 
+Nghiên cứu tập trung vào góc 
+nhìn của giảng viên tiếng Anh 
+Việt Nam đối với việc sử dụng 
+ChatGPT trong hoạt động học 
+tập. Phương pháp phỏng vấn 
+bán cấu trúc giúp cung cấp dữ 
+liệu định tính có chiều sâu. 
+Nguồn phù hợp để phân tích 
+tác động thực tiễn của AI trong 
+lớp học ngoại ngữ. 
+Cao 
+
+4 Pham, V. P. H. & 
+Le, A. Q. (2024). 
+ChatGPT in 
+Language 
+Learning: 
+Perspectives from 
+Vietnamese 
+Students in 
+Vietnam and the 
+USA 
+Bài báo khoa 
+học quốc tế 
+Nghiên cứu khảo sát nhận 
+thức của sinh viên Việt Nam về 
+ChatGPT trong học ngoại ngữ. 
+Điểm mạnh là dữ liệu được thu 
+thập từ cả sinh viên học tập 
+trong nước và quốc tế, tạo cơ 
+sở đối chiếu đa chiều về trải 
+nghiệm sử dụng AI trong học 
+tập. 
+Cao 
+5 Tri, P. M. & Tu, C. 
+T. X. (2025). The 
+Practice of 
+ChatGPT in 
+English Teaching 
+and Learning in 
+Vietnam: A 
+Systematic Review 
+Bài báo khoa 
+học 
+(Systematic 
+Review) 
+Công trình tổng hợp 12 nghiên 
+cứu liên quan đến việc ứng 
+dụng ChatGPT trong dạy và 
+học tiếng Anh tại Việt Nam. 
+Phương pháp systematic 
+review giúp hệ thống hóa xu 
+hướng nghiên cứu và đánh giá 
+thực trạng triển khai AI trong 
+giáo dục ngoại ngữ. 
+Cao 
+6 Phuong, H. P. X. 
+(2024). Using 
+ChatGPT in 
+English Language 
+Learning: A Study 
+on I.T. Students’ 
+Attitudes, Habits, 
+and Perceptions 
+Bài báo khoa 
+học 
+Nghiên cứu sử dụng khảo sát 
+và phỏng vấn để phân tích 
+hành vi và nhận thức của sinh 
+viên Việt Nam khi sử dụng 
+ChatGPT trong học tiếng Anh. 
+Dữ liệu thực nghiệm có giá trị 
+trong việc đánh giá lợi ích và 
+hạn chế của AI đối với người 
+học. 
+Cao 
+
+7 Nguyen, N. H. V. & 
+Pham, V. P. H. 
+(2024). AI 
+Chatbots for 
+Language 
+Practices 
+Bài báo khoa 
+học quốc tế 
+Công trình tập trung vào khả 
+năng hỗ trợ kỹ năng giao tiếp 
+của AI chatbot trong học ngoại 
+ngữ. Nghiên cứu có giá trị thực 
+tiễn cao khi phân tích việc sử 
+dụng AI như công cụ luyện 
+speaking và phản hồi ngôn 
+ngữ theo thời gian thực. 
+Khá cao 
+8 Nguyen, H. D., 
+Pham, N. T. & 
+Dinh, T. H. (2025). 
+Application of 
+Artificial 
+Intelligence in 
+Foreign Language 
+Teaching and 
+Learning: A 
+Comparative Study 
+Bài báo khoa 
+học 
+Nghiên cứu so sánh góc nhìn 
+của giảng viên và sinh viên đối 
+với AI trong giáo dục ngoại 
+ngữ. Mẫu nghiên cứu lớn và 
+được công bố trên tạp chí 
+khoa học của Đại học Sư 
+phạm TP.HCM, tạo độ tin cậy 
+đáng kể cho kết quả nghiên 
+cứu. 
+Cao 
+ 
+III. NHẬN XÉT VÀ KẾT LUẬN 
+Việc khai thác các nguồn học thuật từ tạp chí khoa học quốc tế, nghiên 
+cứu tổng quan hệ thống và các công trình thực nghiệm tại Việt Nam giúp 
+xây dựng được một nền tảng dữ liệu có độ tin cậy cao về chủ đề AI trong 
+giáo dục ngôn ngữ. 
+Các nghiên cứu quốc tế cung cấp khung lý thuyết và xu hướng phát triển 
+chung của ChatGPT trong giáo dục ngôn ngữ, trong khi các công trình 
+thực hiện tại Việt Nam phản ánh trực tiếp thực trạng sử dụng AI của giảng 
+viên và sinh viên trong môi trường học tập hiện nay. Kết quả cho thấy AI 
+đang trở thành công cụ hỗ trợ quan trọng trong việc học ngoại ngữ thông 
+qua các hoạt động như luyện kỹ năng viết, luyện nói, tạo nội dung học tập 
+và hỗ trợ giảng dạy. 
+
+Tuy nhiên, hầu hết các nghiên cứu đều chỉ ra rằng AI vẫn tồn tại nhiều hạn 
+chế liên quan đến độ chính xác của thông tin, đạo đức học thuật và nguy 
+cơ phụ thuộc vào công nghệ. Vì vậy, AI nên được sử dụng như một công 
+cụ hỗ trợ thay vì thay thế hoàn toàn vai trò của giáo viên và người học. 
+IV. DANH MỤC TÀI LIỆU THAM KHẢO 
+Hieu, H. H., & Thao, L. T. (2024). Exploring the impact of AI in language 
+education: Vietnamese EFL teachers’ views on using ChatGPT for fairy tale 
+retelling tasks. International Journal of Learning, Teaching and Educational 
+Research, 23(3), 486–503. 
+https://www.ijlter.net/index.php/ijlter/article/view/1905 
+Li, B., Lowell, V. L., Wang, C., & Li, X. (2024). A systematic review of the 
+first year of publications on ChatGPT and language education: Examining 
+research on ChatGPT’s use in language learning and teaching . Computers 
+and Education: Artificial Intelligence, 7, 100266. 
+https://doi.org/10.1016/j.caeai.2024.100266 
+Nguyen, H. D., Pham, N. T., & Dinh, T. H. (2025). Application of artificial 
+intelligence in foreign language teaching and learning: A comparative 
+study. Ho Chi Minh City University of Education Journal of Science, 22(11), 
+2060–2072. https://doi.org/10.54607/hcmue.js.22.11.4752(2025) 
+Pham, T. N., & Dang, T. X. (2025). An investigation into the application of 
+artificial intelligence for language teaching and learning in Vietnam. 
+Vietnam Journal of Education, 9(2), 265–283. 
+https://doi.org/10.52296/vje.2025.557 
+Pham, V. P. H., & Le, A. Q. (2024). ChatGPT in language learning: 
+Perspectives from Vietnamese students in Vietnam and the USA . 
+International Journal of Language Instruction. 
+https://doi.org/10.54855/ijli.24325 
+
+Phuong, H. P. X. (2024). Using ChatGPT in English language learning: A 
+study on I.T. students’ attitudes, habits, and perceptions. International 
+Journal of TESOL & Education. https://doi.org/10.54855/ijte.24414 
+Tri, P. M., & Tu, C. T. X. (2025). The practice of ChatGPT in English 
+teaching and learning in Vietnam: A systematic review. International 
+Journal of TESOL & Education. https://doi.org/10.54855/ijte.25513 
+Vy, N. N. H., & Pham, V. P. H. (2024). AI chatbots for language practices. 
+International Journal of AI in Language Education. 
+https://doi.org/10.54855/ijaile.24115 
+ 

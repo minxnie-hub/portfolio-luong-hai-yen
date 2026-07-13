@@ -1,0 +1,422 @@
+BÁO CÁO BÀI TẬP: ỨNG DỤNG AI TẠO HỌC LIỆU NGOẠI 
+NGỮ
+ 
+CÁ
+ 
+NHÂN
+ 
+HÓA
+ 
+ Họ và tên: Lương Hải Yến 
+ 
+Mã
+ 
+sinh
+ 
+viên:
+ 
+25041239
+
+Khóa:
+ 
+QH2025
+
+Trường:
+ 
+Đại
+ 
+học
+ 
+Ngoại
+ 
+ngữ
+ 
+–
+ 
+Đại
+ 
+học
+ 
+Quốc
+ 
+gia
+ 
+Hà
+ 
+Nội
+ 
+(ULIS
+ 
+–
+ 
+VNU)
+ 
+I. XÂY DỰNG HỌC LIỆU CÁ NHÂN HÓA BẰNG AI 
+1. Xác định mục tiêu và đối tượng 
+- Ngôn ngữ mục tiêu: Tiếng Anh - Trình độ hiện tại: Trung cấp khá 
+ 
+(Tương
+ 
+đương
+ 
+IELTS
+ 
+5.5–6.0)
+ - Mục tiêu học tập cụ thể: Nâng cao khả năng sử dụng câu điều kiện 
+(Conditionals)
+ 
+trong
+ 
+giao
+ 
+tiếp
+ 
+và
+ 
+viết
+ 
+học
+ 
+thuật
+ 
+nhằm
+ 
+cải
+ 
+thiện
+ 
+tiêu
+ 
+chí
+ 
+Grammatical
+ 
+Range
+ 
+and
+ 
+Accuracy
+ 
+trong
+ 
+IELTS
+ 
+Speaking
+ 
+và
+ 
+Writing.
+ - Công cụ AI sử dụng: 
+ 
+Google
+ 
+Gemini
+ 
+2. Quá trình tạo học liệu 
+A. Học liệu 1: Reading Passage 
+- Prompt 
+Act as an IELTS instructor. 
+Create a reading passage of approximately 220 words about "Making 
+Better
+ 
+Life
+ 
+Decisions".
+ 
+Target level: IELTS 6.0. 
+Requirements: 
+● Use at least 8 examples of conditional sentences. ● Include both Type 2 and Mixed Conditionals. ● Highlight the conditional structures. ● Generate 4 comprehension questions. 
+
+- Đầu ra AI (Trích đoạn) 
+“If people planned their goals more carefully, they would achieve better results in their 
+studies.
+ 
+Many university students believe that if they had managed their time more effectively 
+in
+ 
+high
+ 
+school,
+ 
+they
+ 
+would
+ 
+feel
+ 
+less
+ 
+stressed
+ 
+now.
+ 
+Others think that if they were more confident, they could participate actively in 
+classroom
+ 
+discussions.”
+ 
+Câu hỏi đọc hiểu 
+1. What would happen if students planned better? 2. Why do some students feel stressed? 3. Which type of conditional is mostly used? 4. What lesson can readers learn from the passage? 
+ 
+B. Học liệu 2: Bài tập Ngữ pháp và Từ vựng 
+Prompt 
+Generate 10 grammar exercises focusing on Conditional Sentences for 
+IELTS
+ 
+learners
+ 
+at
+ 
+Band
+ 
+6.0.
+ 
+Include: 
+● Gap-filling questions ● Sentence transformation ● Answer keys ● Short explanations 
+Đầu ra AI (Trích đoạn) 
+Exercise 1 
+If I _____ more free time, I would join the English club. 
+A. have 
+B. had 
+C. had had 
+
+Answer: B 
+Explanation: 
+Type 2 Conditional describes an unreal present situation. 
+Exercise 2 
+Rewrite: 
+I didn't study hard enough. 
+ 
+I
+ 
+regret
+ 
+it
+ 
+now.
+ 
+→ If _________________________________ 
+Answer: 
+If I had studied harder, I wouldn't regret it now. 
+(Mixed Conditional) 
+Vocabulary List 
+● regret ● opportunity ● consequence ● commitment ● motivation 
+C. Học liệu 3: Speaking Activity 
+Prompt 
+Design an IELTS Speaking Part 3 role-play activity. 
+Topic: 
+"Life choices and opportunities" 
+Target level: 
+IELTS 6.0 
+Use at least five conditional sentences. 
+Provide examiner questions and leave blank spaces for student responses. 
+
+Đầu ra AI 
+Examiner: 
+If you could change one decision in your life, what would it be? 
+Student: 
+ 
+Examiner: 
+How would society change if everyone worked remotely? 
+Student: 
+ 
+Examiner: 
+Do you think students would perform better if exams were optional? 
+Student: 
+ 
+D. Học liệu 4: Writing Activity 
+Prompt 
+Create an IELTS Writing Task 2 practice question related to education. 
+Require students to use at least 6 conditional structures. 
+Provide a four-paragraph outline. 
+Đầu ra AI 
+Writing Task 
+Some people believe that students would learn more effectively if traditional 
+examinations
+ 
+were
+ 
+replaced
+ 
+by
+ 
+continuous
+ 
+assessment.
+ 
+To what extent do you agree or disagree? 
+Suggested Outline 
+
+Introduction 
+Introduce the topic. 
+Paraphrase the statement. 
+Present thesis. 
+Body 1 
+Advantages of continuous assessment. 
+Examples. 
+Type 2 Conditional. 
+Body 2 
+Potential disadvantages. 
+Mixed Conditional examples. 
+Conclusion 
+Restate opinion. 
+Summarize arguments. 
+II. BÁO CÁO NGHIÊN CỨU VÀ PHÂN TÍCH 
+(Tiêu chí 2) 
+1. Nguyên lý hoạt động của hệ thống cá nhân hóa dựa trên AI 
+Các nền tảng AI như Gemini hoạt động dựa trên Large Language Models (LLMs) 
+kết
+ 
+hợp
+ 
+với
+ 
+công
+ 
+nghệ
+ 
+Natural
+ 
+Language
+ 
+Processing
+ 
+(NLP)
+.
+ 
+Khi người dùng cung cấp thông tin đầu vào như: 
+● trình độ IELTS 6.0; ● chủ điểm ngữ pháp Conditionals; ● mục tiêu Speaking và Writing; 
+AI sẽ sử dụng các mô hình xác suất để dự đoán chuỗi từ tiếp theo phù hợp nhất với 
+ngữ
+ 
+cảnh.
+
+Khả năng cá nhân hóa của AI đến từ việc xử lý đồng thời nhiều tham số đầu vào như: 
+● trình độ người học; ● kỹ năng cần luyện tập; ● chủ đề yêu thích; ● dạng bài mong muốn. 
+Điều này giúp AI tạo ra học liệu gần với nhu cầu cá nhân của từng người học hơn so 
+với
+ 
+giáo
+ 
+trình
+ 
+truyền
+ 
+thống.
+ 
+2. So sánh học liệu AI với học liệu truyền thống 
+Mức độ cá nhân hóa 
+Giáo trình truyền thống thường áp dụng cho số đông. 
+Ví dụ: 
+Một cuốn sách IELTS sẽ thiết kế nội dung cho toàn bộ người học Band 5.5–6.5. 
+Trong khi đó, Gemini cho phép điều chỉnh: 
+● chủ đề yêu thích; ● độ dài bài đọc; ● mức độ khó; ● cấu trúc ngữ pháp cụ thể. 
+Tính tương tác 
+Học liệu truyền thống mang tính cố định. 
+Người học chỉ làm bài tập có sẵn. 
+Ngược lại, AI có thể đóng vai giám khảo Speaking, phản hồi theo thời gian thực và 
+điều
+ 
+chỉnh
+ 
+độ
+ 
+khó
+ 
+dựa
+ 
+trên
+ 
+kết
+ 
+quả
+ 
+học
+ 
+tập.
+ 
+Tốc độ tạo học liệu 
+Việc thiết kế một bộ tài liệu luyện Conditionals theo phương pháp truyền thống có thể 
+mất
+ 
+nhiều
+ 
+giờ.
+ 
+Gemini chỉ cần vài giây để tạo: 
+● bài đọc; ● bài tập; 
+
+● hoạt động nói; ● hoạt động viết. 
+3. Các yếu tố cần cân nhắc 
+Hallucination 
+AI đôi khi tạo ra ví dụ ngữ pháp chưa hoàn toàn chính xác. 
+Ví dụ: 
+AI có thể nhầm lẫn giữa Mixed Conditional và Type 3. 
+Do đó giáo viên cần kiểm tra nội dung trước khi sử dụng. 
+Tính tự nhiên của ngôn ngữ 
+Một số câu do AI tạo ra đúng ngữ pháp nhưng không phản ánh cách diễn đạt phổ biến 
+của
+ 
+người
+ 
+bản
+ 
+ngữ.
+ 
+Phụ thuộc vào AI 
+Nếu học sinh chỉ sao chép đáp án do AI tạo ra thì kỹ năng ngôn ngữ sẽ không được cải 
+thiện
+ 
+đáng
+ 
+kể.
+ 
+AI nên được sử dụng như một công cụ hỗ trợ thay vì thay thế quá trình học tập. 
+III. THỬ NGHIỆM THỰC TẾ VÀ PHẢN HỒI 
+➢ Người học 1 
+(Trình độ IELTS 5.5) 
+- Phản hồi + Bài đọc có chủ đề gần gũi. + Các câu điều kiện được đánh dấu rõ ràng nên dễ nhận biết. + Hoạt động Speaking giúp người học suy nghĩ nhanh hơn. - Hạn chế + Một số câu trong bài đọc hơi dài. + Cần bổ sung danh sách từ vựng trước khi đọc. ➢ Người học 2 
+(Trình độ IELTS 6.5) 
+
+- Phản hồi + Đặc biệt thích phần Writing vì có dàn ý chi tiết. + Bài tập chuyển đổi câu giúp ghi nhớ cấu trúc ngữ pháp tốt hơn. - Hạn chế + Nên bổ sung thêm bài tập sửa lỗi sai. ➢ Phân tích và rút kinh nghiệm - Qua phản hồi có thể thấy Gemini rất hiệu quả trong việc tạo học liệu cá 
+nhân
+ 
+hóa.
+ - Tuy nhiên AI vẫn có xu hướng tạo nội dung dài hơn mức mong muốn. - Trong các prompt tiếp theo cần thêm điều kiện: + Use only vocabulary within CEFR B1 level. + Sentence length should not exceed 18 words. - Điều này giúp kiểm soát độ khó chính xác hơn. 
+IV. BỘ HƯỚNG DẪN PROMPT CHO GIÁO VIÊN NGOẠI NGỮ 
+- Prompt 1 - Reading 
+Create a reading passage of [200] words on the topic [Travel]. 
+Target level: 
+[IELTS 5.5] 
+Include [5] examples of [Passive Voice]. 
+Generate comprehension questions. 
+- Prompt 2 - Grammar 
+Design [10] grammar exercises focusing on [Relative Clauses]. 
+Include explanations and common learner mistakes. 
+- Prompt 3 - Vocabulary 
+Generate a vocabulary lesson on [Environment]. 
+Include: 
+collocations 
+synonyms 
+
+pronunciation 
+example sentences 
+- Prompt 4 - Speaking 
+Create an IELTS Speaking Part 2 task about [Technology]. 
+Include cue cards and follow-up questions. 
+- Prompt 5 - Writing 
+Design an IELTS Writing Task 2 question related to [Education]. 
+Provide a detailed outline and useful expressions. 
+- Prompt 6 - AI Examiner 
+Act as an IELTS examiner. 
+Assess my speaking answer based on: 
+Fluency 
+Vocabulary 
+Grammar 
+Pronunciation. 
+Give feedback but do not rewrite my response. 
+V. TÀI LIỆU THAM KHẢO 
+1. Google. (2026). Google Gemini [Large Language Model]. https://gemini.google.com 2. Richards, J. C. (2015). Interchange English Series . Cambridge University 
+Press.
+ 3. Murphy, R. (2019). English Grammar in Use (5th ed.). Cambridge University 
+Press.

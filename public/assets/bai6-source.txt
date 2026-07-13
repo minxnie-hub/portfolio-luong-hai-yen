@@ -1,0 +1,156 @@
+BÁO CÁO CÁ NHÂN: SỬ DỤNG AI CÓ TRÁCH NHIỆM VÀ ĐẠO ĐỨC 
+TRONG HỌC THUẬT 
+Họ và tên: Lương Hải Yến 
+Mã sinh viên: 25041239 
+Mã lớp: VNU1001_E252060 
+Trường: Đại học Ngoại ngữ - Đại học Quốc gia Hà Nội (ULIS - VNU) 
+I. Nghiên cứu và phân tích chính sách sử dụng AI của trường đại học  
+Sự phát triển mạnh mẽ của trí tuệ nhân tạo tạo sinh đã mang lại nhiều cơ hội đổi 
+mới trong giáo dục đại học. Tuy nhiên, việc ứng dụng AI trong học tập cũng đặt ra 
+yêu cầu về tính trung thực học thuật, trách nhiệm cá nhân và quyền sở hữu trí tuệ. 
+Vì vậy, nhiều trường đại học đã ban hành các định hướng nhằm hướng dẫn người 
+học sử dụng AI một cách phù hợp. 
+Theo định hướng về liêm chính học thuật của Đại học Quốc gia Hà Nội và Trường 
+Đại học Ngoại ngữ, sinh viên được phép sử dụng AI như một công cụ hỗ trợ cho 
+quá trình học tập, chẳng hạn như tìm kiếm ý tưởng, xây dựng dàn ý, kiểm tra ngữ 
+pháp, gợi ý cấu trúc bài viết hoặc tổng hợp tài liệu tham khảo. Tuy nhiên, người 
+học không được sử dụng AI để tạo ra toàn bộ sản phẩm học thuật rồi nộp như 
+thành quả của bản thân mà không có sự chỉnh sửa, đánh giá hoặc trích dẫn phù 
+hợp. 
+Ngoài ra, việc sử dụng AI cần được minh bạch hóa thông qua việc ghi chú hoặc 
+trích dẫn trong bài làm khi công cụ này có đóng góp đáng kể vào quá trình thực 
+hiện nhiệm vụ học tập. 
+So với một số trường đại học quốc tế như các trường thuộc hệ thống Russell Group 
+tại Vương quốc Anh, chính sách của ULIS có điểm tương đồng ở chỗ coi AI là 
+công cụ hỗ trợ học tập thay vì cấm hoàn toàn. Tuy nhiên, trách nhiệm đánh giá 
+mức độ sử dụng AI vẫn thuộc về người học và giảng viên.  
+Theo quan điểm cá nhân, đây là một định hướng phù hợp với bối cảnh giáo dục 
+hiện nay. AI có thể giúp sinh viên tiết kiệm thời gian trong việc tìm kiếm thông tin 
+
+và tổ chức nội dung, nhưng không thể thay thế tư duy phản biện, khả năng phân 
+tích và năng lực chuyên môn của con người. Do đó, người học cần duy trì vai trò 
+chủ động trong quá trình học tập để đảm bảo giá trị thực sự của việc giáo dục đại 
+học. 
+II. Thực hiện nhiệm vụ học tập với AI 
+- Nhiệm vụ học tập: Xây dựng dàn ý và tổng hợp tài liệu cho bài luận môn 
+College Writing với chủ đề: "Ảnh hưởng của trí tuệ nhân tạo đến việc học 
+ngoại ngữ của sinh viên đại học." 
+- Công cụ sử dụng: ChatGPT (OpenAI) 
+1. Prompt đã sử dụng 
+“Hãy đóng vai một giảng viên môn Academic Writing. Giúp tôi xây dựng dàn ý 
+cho một bài luận khoảng 1200 từ với chủ đề: "The Impact of Artificial Intelligence 
+on Foreign Language Learning among University Students". Dàn ý cần bao gồm 
+phần mở bài, ba luận điểm chính và phần kết luận. Mỗi luận điểm cần có giải thích 
+ngắn gọn và ví dụ minh họa phù hợp với sinh viên đại học.”  
+2. Đầu ra của AI (Tóm tắt) 
+ChatGPT đề xuất cấu trúc bài luận gồm bốn phần: 
+Mở bài: 
+● Giới thiệu sự phát triển của AI trong giáo dục. 
+● Nêu luận đề về tác động tích cực và tiêu cực của AI đối với việc học ngoại 
+ngữ. 
+Thân bài 1: 
+● AI hỗ trợ cá nhân hóa quá trình học tập. 
+● Ví dụ: chatbot luyện hội thoại và công cụ sửa lỗi phát âm.  
+Thân bài 2: 
+● AI giúp tăng khả năng tiếp cận tài liệu học tập. 
+● Ví dụ: dịch thuật tức thời và tạo bài tập luyện tập. 
+
+Thân bài 3: 
+● Nguy cơ phụ thuộc quá mức vào AI. 
+● Ảnh hưởng đến tư duy ngôn ngữ và khả năng tự diễn đạt.  
+Kết luận: 
+● Tóm tắt lợi ích và hạn chế. 
+● Khẳng định vai trò của con người trong quá trình học tập.  
+
+ 
+3. Đánh giá, chỉnh sửa và tích hợp đầu ra của AI  
+Dàn ý do AI tạo ra có cấu trúc rõ ràng, logic và phù hợp với yêu cầu của một bài 
+luận học thuật. Tuy nhiên, nội dung vẫn còn mang tính khái quát và chưa phản ánh 
+đầy đủ thực tế của sinh viên chuyên ngành ngoại ngữ. 
+Sau khi tham khảo đầu ra của AI, tôi đã tiến hành chỉnh sửa theo ba hướng chính.  
+
+
+Thứ nhất, tôi bổ sung các ví dụ cụ thể liên quan đến việc sử dụng AI trong học 
+ngoại ngữ như luyện nói thông qua chế độ hội thoại với AI, sử dụng công cụ phản 
+hồi phát âm và ứng dụng AI trong mô phỏng tình huống giao tiếp.  
+Thứ hai, tôi mở rộng phần hạn chế của AI bằng cách phân tích hiện tượng sinh 
+viên quá phụ thuộc vào công cụ dịch thuật hoặc sử dụng AI để viết toàn bộ bài luận 
+mà không phát triển kỹ năng tư duy học thuật. 
+Thứ ba, tôi tìm kiếm thêm các nguồn học thuật và báo cáo nghiên cứu để kiểm 
+chứng một số nhận định của AI, từ đó đảm bảo tính chính xác và độ tin cậy của nội 
+dung. 
+Có thể thấy rằng AI đóng vai trò hỗ trợ xây dựng nền tảng ban đầu cho bài luận, 
+trong khi phần lớn nội dung phân tích, dẫn chứng và lập luận được tôi tự nghiên 
+cứu, lựa chọn và phát triển. 
+4. Trích dẫn việc sử dụng AI 
+Trong phần tài liệu tham khảo của bài luận, tôi trình bày việc sử dụng AI theo định 
+dạng APA như sau: 
+OpenAI. (2026). ChatGPT (Large Language Model). https://chatgpt.com 
+(Sử dụng để hỗ trợ xây dựng dàn ý và gợi ý cấu trúc bài luận; truy cập ngày 
+28/06/2026.) 
+III. Phân tích các vấn đề đạo đức liên quan đến việc sử dụng AI trong học 
+thuật 
+Việc sử dụng AI trong môi trường học thuật mang lại nhiều lợi ích đáng kể nhưng 
+đồng thời cũng đặt ra những thách thức về đạo đức cần được cân nhắc một cách 
+nghiêm túc. 
+1. Ranh giới giữa hỗ trợ hợp lý và gian lận học thuật 
+Một trong những vấn đề quan trọng nhất là xác định đâu là việc sử dụng AI hợp lý 
+và đâu là hành vi gian lận học thuật. 
+
+Việc sử dụng AI để tìm ý tưởng, xây dựng dàn ý hoặc kiểm tra lỗi ngữ pháp có thể 
+được xem là hình thức hỗ trợ học tập phù hợp. Tuy nhiên, nếu sinh viên yêu cầu AI 
+viết toàn bộ bài luận rồi nộp mà không có bất kỳ sự chỉnh sửa, đánh giá hay trích 
+dẫn nào thì điều này không còn phản ánh năng lực thực sự của người học.  
+Trong trường hợp đó, AI không còn đóng vai trò công cụ hỗ trợ mà trở thành 
+phương tiện thay thế hoàn toàn quá trình học tập, vi phạm nguyên tắc trung thực 
+học thuật. 
+2. Quyền sở hữu trí tuệ và vấn đề trích dẫn 
+Một vấn đề khác liên quan đến việc sử dụng AI là quyền sở hữu trí tuệ.  
+Mặc dù nội dung do AI tạo ra không phải là bản sao trực tiếp từ một nguồn cụ thể, 
+nhưng nó được hình thành dựa trên quá trình huấn luyện từ lượng dữ liệu rất lớn 
+trên Internet. Vì vậy, người học cần minh bạch về mức độ tham gia của AI trong 
+quá trình xây dựng sản phẩm học tập. 
+Việc trích dẫn AI không chỉ thể hiện sự trung thực mà còn giúp người đọc hiểu rõ 
+quy trình hình thành nội dung. 
+3. Tác động đến quá trình học tập và phát triển kỹ năng 
+AI có thể giúp sinh viên tiết kiệm thời gian và nâng cao hiệu quả học tập. Tuy 
+nhiên, việc phụ thuộc quá mức vào AI cũng có thể làm suy giảm khả năng tư duy 
+phản biện, kỹ năng viết học thuật và năng lực giải quyết vấn đề.  
+Đối với sinh viên ngành ngoại ngữ, nếu thường xuyên sử dụng AI để viết, dịch 
+hoặc chỉnh sửa toàn bộ bài làm, người học có thể mất dần khả năng tự diễn đạt và 
+phát triển năng lực ngôn ngữ của bản thân. 
+Do đó, AI cần được xem là một công cụ bổ trợ giúp nâng cao hiệu quả h ọc tập chứ 
+không phải là phương tiện thay thế quá trình rèn luyện kỹ năng.  
+IV. Bộ nguyên tắc cá nhân về sử dụng AI có trách nhiệm  
+Thông qua quá trình trải nghiệm và nghiên cứu, tôi xây dựng cho bản thân sáu 
+nguyên tắc khi sử dụng AI trong học tập. 
+
+- Nguyên tắc 1: Sử dụng AI để hỗ trợ tư duy, không thay thế tư duy cá nhân.  
+- Nguyên tắc 2: Minh bạch về mức độ sử dụng AI trong các bài tập, báo cáo 
+hoặc nghiên cứu học thuật. 
+- Nguyên tắc 3: Luôn kiểm chứng thông tin do AI cung cấp bằng các nguồn 
+học thuật đáng tin cậy. 
+- Nguyên tắc 4: Không sử dụng AI để hoàn thành toàn bộ nhiệm vụ học tập 
+mà không có sự tham gia của bản thân. 
+- Nguyên tắc 5: Bảo vệ dữ liệu cá nhân và không chia sẻ tài liệu nhạy cảm lên 
+các nền tảng AI. 
+- Nguyên tắc 6: Duy trì dấu ấn cá nhân thông qua việc chỉnh sửa, bổ sung 
+quan điểm và phát triển nội dung bằng trải nghiệm của chính mình.  
+Những nguyên tắc này có mối liên hệ chặt chẽ với các vấn đề đạo đức đã được 
+phân tích ở trên, đặc biệt là tính trung thực học thuật, quyền sở hữu trí tuệ và việc 
+phát triển năng lực học tập bền vững. 
+V. Infographic: "Sử dụng AI có trách nhiệm trong học thuật"  
+
+ 
+
+
+VI. Kết luận 
+AI đang trở thành một phần quan trọng của giáo dục đại học hiện đại. Khi được sử 
+dụng một cách hợp lý, AI có thể giúp sinh viên nâng cao hiệu quả học tập, mở rộng 
+khả năng tiếp cận tri thức và tiết kiệm thời gian trong quá trình nghiên cứu.  
+Tuy nhiên, giá trị thực sự của AI không nằm ở việc thay thế con người mà ở khả 
+năng hỗ trợ và thúc đẩy quá trình học tập. Người học cần duy trì tư duy phản biện, 
+tính trung thực học thuật và trách nhiệm cá nhân để đảm bảo rằng AI luôn là công 
+cụ phục vụ cho sự phát triển năng lực thay vì trở thành yếu tố làm suy giảm kỹ 
+năng của chính mình. 
+ 

@@ -1,0 +1,145 @@
+BÁO CÁO CÁ NHÂN: TRẢI NGHIỆM VÀ ĐÁNH GIÁ VIỆC SỬ DỤNG 
+CÔNG CỤ HỢP TÁC TRỰC TUYẾN TRONG DỰ ÁN NHÓM 
+Họ và tên: Lương Hải Yến 
+MSSV: 25041239 
+I. Giới thiệu bối cảnh dự án 
+Trong học phần Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo, 
+nhóm em thực hiện dự án với chủ đề “Ứng dụng của AI trong Ngôn ngữ 
+và Giáo dục tại Việt Nam”. Dự án kéo dài trong khoảng hai tuần với mục 
+tiêu tìm hiểu những ứng dụng nổi bật của AI trong học ngoại ngữ, hỗ trợ 
+giảng dạy, thiết kế nội dung giáo dục và cá nhân hóa việc học tập. 
+Khối lượng công việc của dự án tương đối lớn, bao gồm nghiên cứu tài 
+liệu, xây dựng nội dung, thiết kế slide, viết kịch bản thuyết trình, quay video 
+em họa và chỉnh sửa sản phẩm cuối cùng. Để đảm bảo tiến độ thực hiện 
+cũng như nâng cao hiệu quả phối hợp giữa các thành viên, nhóm đã thống 
+nhất sử dụng các công cụ làm việc trực tuyến gồm Trello, Google Docs, 
+Google Drive, Zalo và Google Meet. 
+Vai trò chính của em trong dự án là tham gia xây dựng outline, theo dõi 
+tiến độ thực hiện của nhóm, rà soát nội dung tổng thể và hỗ trợ chỉnh sửa 
+sản phẩm cuối cùng trước khi nộp. 
+II. Thiết lập và sử dụng công cụ (Tiêu chí 1) 
+Thay vì chỉ trao đổi công việc thông qua tin nhắn thông thường, nhóm đã 
+xây dựng một hệ thống làm việc trực tuyến gồm nhiều công cụ khác nhau 
+nhằm hỗ trợ quản lý dự án hiệu quả hơn. 
+1. Trello (Quản lý dự án) 
+Nhóm sử dụng Trello để phân chia nhiệm vụ và theo dõi tiến độ thực hiện. 
+Bảng công việc được chia thành các cột cơ bản như To Do, Doing và 
+
+Done. Mỗi nhiệm vụ đều được gắn deadline cụ thể và phân công cho từng 
+thành viên phụ trách. 
+2. Google Docs (Soạn thảo cộng tác) 
+Google Docs được sử dụng để xây dựng nội dung báo cáo và kịch bản 
+thuyết trình. Tất cả thành viên có thể cùng chỉnh sửa trên một tài liệu 
+chung, đồng thời sử dụng chức năng bình luận để góp ý và phản hồi nội 
+dung. 
+3. Google Drive (Lưu trữ và chia sẻ tài liệu) 
+Google Drive đóng vai trò là kho lưu trữ chung của nhóm. Toàn bộ tài liệu 
+nghiên cứu, slide, video và báo cáo đều được sắp xếp trong các thư mục 
+riêng để thuận tiện cho việc tìm kiếm và quản lý. 
+4. Zalo (Giao tiếp nhóm) 
+Zalo được sử dụng làm công cụ trao đổi chính. Các thành viên thường 
+xuyên cập nhật tiến độ công việc, chia sẻ tài liệu và thảo luận những vấn 
+đề phát sinh thông qua nhóm chat chung. 
+5. Google Meet (Họp trực tuyến) 
+Google Meet được sử dụng trong các buổi họp nhóm nhằm thống nhất nội 
+dung, phân chia nhiệm vụ và đánh giá tiến độ thực hiện dự án. 
+-  Điểm tối ưu hóa (Optimization): Nhóm kết hợp Trello với Zalo để 
+theo dõi tiến độ công việc hiệu quả hơn. Sau mỗi giai đoạn hoàn 
+thành nhiệm vụ, thành viên phụ trách sẽ cập nhật trạng thái trên 
+Trello và thông báo trên nhóm Zalo để toàn bộ thành viên có thể theo 
+dõi. 
+
+ 
+
+
+ 
+
+
+ 
+III. Quản lý tác vụ và tương tác cá nhân (Tiêu chí 2) 
+Trong suốt quá trình thực hiện dự án, em chủ động theo dõi và cập nhật 
+tiến độ các công việc được giao. 
+- Quản lý tác vụ: 100% nhiệm vụ em phụ trách trên Trello đều được 
+gắn thời hạn hoàn thành và mô tả cụ thể. Trong quá trình thực hiện, 
+em thường xuyên cập nhật trạng thái công việc để các thành viên 
+khác có thể theo dõi tiến độ chung của nhóm. 
+- Tương tác và phối hợp: Thông qua nhóm Zalo, em thường xuyên 
+trao đổi với các thành viên về nội dung bài làm, góp ý cho phần 
+nghiên cứu và hỗ trợ chỉnh sửa các nội dung chưa thống nhất. Ngoài 
+ra, em cũng tham gia đầy đủ các buổi họp nhóm trên Google Meet để 
+cập nhật tiến độ và xử lý những vấn đề phát sinh. 
+- Hỗ trợ thành viên khác: Trong giai đoạn hoàn thiện nội dung, em 
+tham gia rà soát các phần AI in Language Learning, AI for Teaching 
+và Personalized Learning nhằm đảm bảo tính thống nhất của toàn bộ 
+bài báo cáo. Đồng thời, em hỗ trợ kiểm tra flow trình bày và chỉnh 
+
+
+sửa sản phẩm cuối cùng trước khi nộp. 
+ 
+
+
+IV. Quản lý tài nguyên và tệp tin (Tiêu chí 3) 
+Để tránh tình trạng thất lạc tài liệu hoặc sử dụng nhầm phiên bản, nhóm 
+thống nhất sử dụng Google Drive làm nơi lưu trữ tập trung. 
+- Cấu trúc thư mục 
++ Thư mục gốc: AI in Language and Education Project 
+- Thư mục cấp 1: 
+● Research Materials 
+● Report Draft 
+● Slides 
+● Video Materials 
+● Final Submission 
+- Quy tắc đặt tên tệp 
++ Các tệp được đặt tên theo quy tắc thống nhất: 
+[Ngày][Nội dung][Người phụ trách]_v[Phiên bản] 
+Ví dụ: 
+● 2505_Outline_Yen_v1.docx 
+● 2905_Script_Thuy_v2.docx 
+● 0506_FinalVideo_Nam_v1.mp4 
+- Phân quyền truy cập: Các tài liệu đang chỉnh sửa được cấp quyền 
+Editor cho toàn bộ thành viên. Đối với phiên bản cuối cùng trước khi 
+nộp, quyền truy cập được giới hạn nhằm tránh chỉnh sửa ngoài ý 
+muốn. 
+
+ 
+ 
+ 
+V. Đánh giá hiệu quả: Thách thức & Giải pháp (Tiêu chí 4) 
+
+
+Việc sử dụng các công cụ trực tuyến giúp quá trình phối hợp diễn ra hiệu 
+quả hơn, tuy nhiên nhóm vẫn gặp một số khó khăn trong quá trình thực 
+hiện. 
+1. Thách thức 1: Khó khăn trong việc sắp xếp lịch họp 
+- Vấn đề: Do lịch học của các thành viên khác nhau nên việc tìm thời 
+gian họp phù hợp cho toàn bộ nhóm gặp nhiều khó khăn. 
+- Giải pháp: Nhóm thống nhất lịch họp từ sớm và sử dụng Zalo để cập 
+nhật nội dung cho những thành viên không thể tham gia đầy đủ. 
+
+ 
+2. Thách thức 2: Xung đột nội dung trên Google Docs 
+- Vấn đề: Khi nhiều người cùng chỉnh sửa trong cùng thời điểm, đôi 
+lúc xảy ra tình trạng thay đổi định dạng hoặc ghi đè nội dung. 
+
+
+- Giải pháp: Nhóm thống nhất quy chuẩn trình bày và sử dụng tính 
+năng bình luận để góp ý thay vì chỉnh sửa trực tiếp phần việc của 
+thành viên khác. 
+ 
+3. Thách thức 3: Quản lý số lượng lớn tài liệu 
+- Vấn đề: Trong quá trình nghiên cứu, số lượng tài liệu và phiên bản 
+tệp tăng nhanh khiến việc tìm kiếm đôi lúc mất thời gian. 
+- Giải pháp: Nhóm áp dụng quy tắc đặt tên tệp thống nhất và phân 
+loại tài liệu theo nhiều cấp thư mục trên Google Drive để dễ dàng 
+quản lý. 
+VI. Tổng kết 
+
+
+Quá trình thực hiện dự án giúp em có cơ hội áp dụng các công cụ hợp tác 
+trực tuyến vào môi trường làm việc nhóm thực tế. Việc sử dụng Trello, 
+Google Docs, Google Drive, Zalo và Google Meet không chỉ hỗ trợ hoàn 
+thành dự án đúng tiến độ mà còn giúp em rèn luyện kỹ năng quản lý công 
+việc, giao tiếp trực tuyến và phối hợp với các thành viên khác. 
+Những kinh nghiệm thu được từ dự án sẽ là nền tảng hữu ích cho các hoạt 
+động học tập và làm việc nhóm trong tương lai. 
+ 

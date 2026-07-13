@@ -1,0 +1,192 @@
+BÁO CÁO THỰC HÀNH PROMPT ENGINEERING 
+Chủ đề: Ứng dụng Prompt Engineering trong Giáo dục Ngôn ngữ 
+Họ và tên: Lương Hải Yến 
+Mã sinh viên: 25041239 
+I. Giới thiệu 
+Sự phát triển của các hệ thống trí tuệ nhân tạo tạo sinh (Generative AI) như ChatGPT 
+đã mở ra nhiều cơ hội hỗ trợ học tập ngoại ngữ. Tuy nhiên, chất lượng đầu ra của AI 
+phụ thuộc đáng kể vào cách người dùng đặt câu lệnh (prompt). Một prompt được thiết 
+kế tốt có thể giúp AI cung cấp nội dung chính xác, phù hợp trình độ người học và có 
+tính sư phạm cao hơn. 
+Báo cáo này thực hiện thử nghiệm trên ba tác vụ phổ biến trong giáo dục ngôn ngữ 
+nhằm đánh giá sự khác biệt giữa prompt cơ bản và prompt nâng cao. 
+II. Thử nghiệm Prompt Engineering 
+1. Tác vụ 1: Giải thích khái niệm ngôn ngữ học 
+Chủ đề: Câu điều kiện loại 2 trong tiếng Anh 
+Phiên 
+bản 
+Nội dung Prompt Phân tích cấu trúc & 
+Kỹ thuật 
+Đánh giá hiệu quả 
+Cơ 
+bản 
+Câu điều kiện loại 2 là gì? Chỉ là câu hỏi truy vấn 
+thông tin đơn giản. 
+Không xác định đối 
+tượng người học hay 
+cách trình bày. 
+AI đưa ra định 
+nghĩa học thuật 
+tương đối chính 
+xác nhưng khó tiếp 
+cận với người mới 
+học. 
+
+Cải 
+tiến 
+Giải thích câu điều kiện loại 2 trong 
+tiếng Anh. Cho ví dụ và phân tích 
+cấu trúc ngữ pháp. 
+Bổ sung yêu cầu ví dụ 
+và giải thích cấu trúc. 
+Nội dung đầy đủ 
+hơn, người học dễ 
+hình dung cách sử 
+dụng. 
+Nâng 
+cao 
+[Role] Đóng vai giáo viên IELTS. 
+[Task] Giải thích câu điều kiện loại 
+2 cho học sinh trình độ B1. 
+[Constraint] Sử dụng ngôn ngữ 
+đơn giản, đưa ra 3 ví dụ thực tế và 
+chỉ ra lỗi sai thường gặp. 
+Kết hợp Role 
+Prompting và 
+Constraints giúp AI 
+điều chỉnh nội dung 
+phù hợp với trình độ 
+người học. 
+Kết quả dễ hiểu, có 
+tính sư phạm cao 
+và sát nhu cầu học 
+tập thực tế. 
+ 
+2. Tác vụ 2: Luyện kỹ năng Writing 
+Chủ đề: IELTS Writing Task 2 
+Phiên 
+bản 
+Nội dung Prompt Phân tích cấu 
+trúc & Kỹ 
+thuật 
+Đánh giá hiệu quả 
+Cơ bản Chấm bài IELTS Writing cho tôi. Thiếu tiêu chí 
+đánh giá và 
+yêu cầu cụ thể. 
+AI chỉ đưa nhận xét 
+chung chung. 
+Cải tiến Chấm bài IELTS Writing Task 2 theo 4 
+tiêu chí IELTS và cho điểm từng tiêu chí. 
+Xác định rõ 
+tiêu chuẩn 
+đánh giá. 
+Nhận xét chi tiết 
+hơn và có tính ứng 
+dụng. 
+Nâng 
+cao 
+[Role] Đóng vai giám khảo IELTS được 
+chứng nhận. [Task] Đánh giá bài viết theo 
+Task Response, Coherence and 
+Cohesion, Lexical Resource và 
+Grammatical Range and Accuracy. 
+[Constraint] Chỉ ra ít nhất 5 lỗi, giải thích 
+nguyên nhân và viết lại câu đúng. 
+Áp dụng Role 
+Prompting kết 
+hợp 
+Constraints. 
+AI đóng vai người 
+hướng dẫn học tập 
+hiệu quả, giúp 
+người học biết 
+chính xác điểm yếu 
+cần cải thiện. 
+ 
+3. Tác vụ 3: Tạo bài tập luyện tập từ vựng 
+
+Chủ đề: Academic Vocabulary 
+Phiên 
+bản 
+Nội dung Prompt Phân tích cấu 
+trúc & Kỹ thuật 
+Đánh giá hiệu 
+quả 
+Cơ bản Tạo bài tập từ vựng tiếng Anh. Không xác định 
+trình độ, số 
+lượng câu hỏi 
+hoặc chủ đề. 
+Kết quả thiếu tính 
+nhất quán. 
+Cải tiến Tạo 10 câu hỏi trắc nghiệm từ vựng trình 
+độ B1 về chủ đề Education. Có đáp án ở 
+cuối. 
+Xác định rõ chủ 
+đề và trình độ. 
+Bài tập phù hợp 
+hơn với mục tiêu 
+học tập. 
+Nâng 
+cao 
+[Role] Đóng vai giáo viên tiếng Anh. 
+[Task] Tạo 10 câu hỏi trắc nghiệm từ 
+vựng chủ đề Education trình độ B1. 
+[Constraint] Mỗi câu có 4 lựa chọn A–D, 
+kèm đáp án và giải thích chi tiết vì sao 
+đáp án đúng. 
+Kết hợp Role 
+Prompting và 
+Few-shot 
+Thinking. 
+AI tạo bộ bài tập 
+hoàn chỉnh có thể 
+sử dụng trực tiếp 
+trong giảng dạy và 
+tự học. 
+ 
+III. Phân tích hiệu quả của Prompt Engineering 
+Qua các thử nghiệm trên có thể thấy chất lượng đầu ra của AI tăng đáng kể khi prompt 
+được thiết kế chi tiết hơn. 
+1. Role Prompting (Thiết lập vai trò) 
+Việc yêu cầu AI đóng vai giáo viên tiếng Anh hoặc giám khảo IELTS giúp câu trả lời 
+mang tính chuyên môn cao hơn và phù hợp với bối cảnh giáo dục. 
+2. Constraints (Ràng buộc) 
+Các yêu cầu về độ dài, trình độ người học, số lượng ví dụ hoặc hình thức trình bày giúp 
+AI tập trung vào mục tiêu chính thay vì tạo ra nội dung lan man. 
+3. Few-shot Prompting 
+Việc cung cấp mẫu đầu ra mong muốn giúp AI hiểu rõ cấu trúc và định dạng cần tạo. 
+
+4. Context Specification 
+Khi cung cấp thông tin về đối tượng người học, trình độ ngoại ngữ hoặc mục tiêu học 
+tập, AI có thể cá nhân hóa nội dung tốt hơn. 
+IV. Nguyên tắc viết Prompt hiệu quả trong Giáo dục Ngôn ngữ 
+Từ kết quả thử nghiệm, có thể rút ra một số nguyên tắc quan trọng: 
+● Xác định rõ vai trò của AI. 
+● Mô tả cụ thể đối tượng người học. 
+● Nêu rõ mục tiêu học tập. 
+● Đưa ra yêu cầu về cấu trúc đầu ra. 
+● Bổ sung ví dụ minh họa khi cần thiết. 
+● Yêu cầu AI giải thích thay vì chỉ cung cấp đáp án. 
+● Thử nghiệm và điều chỉnh prompt nhiều lần để đạt kết quả tốt nhất. 
+V. Kết luận 
+Prompt Engineering đóng vai trò quan trọng trong việc khai thác hiệu quả các công cụ 
+AI phục vụ giáo dục ngôn ngữ. Khi người dùng xây dựng prompt có cấu trúc rõ ràng, AI 
+không chỉ cung cấp thông tin chính xác hơn mà còn có thể đóng vai trò như một trợ lý 
+học tập, gia sư hoặc người hỗ trợ giảng dạy hiệu quả. 
+Việc áp dụng các kỹ thuật như Role Prompting, Constraints và Few-shot Prompting 
+giúp nâng cao đáng kể chất lượng đầu ra của AI, góp phần hỗ trợ quá trình dạy và học 
+ngoại ngữ trong bối cảnh giáo dục số hiện nay. 
+Tài liệu tham khảo (APA 7) 
+Kasneci, E., Sessler, K., Küchemann, S., Bannert, M., Dementieva, D., Fischer, F., ... & 
+Kasneci, G. (2023). ChatGPT for good? On opportunities and challenges of large 
+language models for education. Learning and Individual Differences, 103, 102274. 
+https://doi.org/10.1016/j.lindif.2023.102274 
+Lo, C. K. (2023). What is the impact of ChatGPT on education? A rapid review of the 
+literature. Education Sciences, 13(4), 410. https://doi.org/10.3390/educsci13040410 
+Yan, D. (2023). Impact of ChatGPT on learners in a L2 writing practice. Education and 
+Information Technologies, 28, 13943–13958. https://doi.org/10.1007/s10639-023-
+11742-4 
+
+Zhai, X. (2023). ChatGPT and AI: The game changer for education. TechTrends, 67(5), 
+872–875. https://doi.org/10.1007/s11528-023-00835-8 
+ 

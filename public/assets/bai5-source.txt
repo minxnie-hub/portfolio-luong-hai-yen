@@ -1,0 +1,139 @@
+BÁO CÁO CÁ NHÂN: ỨNG DỤNG AI TẠO SINH TRONG SÁNG TẠO 
+NỘI DUNG SỐ 
+Họ và tên: Lương Hải Yến 
+Mã sinh viên: 25041239 
+Mã lớp: VNU1001_E252060  
+Dự án sáng tạo: Thiết kế Poster giáo dục “Kỹ năng quản lý thời gian dành cho 
+sinh viên đại học” 
+I. Lựa chọn dự án và Công cụ AI tạo sinh 
+Trong môi trường đại học, kỹ năng quản lý thời gian đóng vai trò quan trọng trong 
+việc nâng cao hiệu quả học tập và cân bằng giữa học tập, công việc và hoạt động 
+cá nhân. Vì vậy, tôi lựa chọn thiết kế một poster giáo dục nhằm cung cấp cho sinh 
+viên những nguyên tắc cơ bản để quản lý thời gian hiệu quả. 
+Để thực hiện dự án, tôi sử dụng ba công cụ AI tạo sinh thuộc ba nhóm chức năng 
+khác nhau: 
+1. AI tạo văn bản (Claude): Claude được sử dụng để xây dựng dàn ý, viết nội 
+dung ngắn gọn và đề xuất cách trình bày thông tin phù hợp với định dạng 
+poster. 
+2. AI tạo hình ảnh (Chat-GPT Dall-E): Dall-E được sử dụng để tạo các hình 
+minh họa theo phong cách hiện đại, bao gồm sinh viên học tập, đồng hồ, lịch 
+biểu và các yếu tố liên quan đến quản lý thời gian. 
+3. AI hỗ trợ thiết kế (Canva AI): Canva AI được sử dụng để hỗ trợ bố cục 
+thiết kế, lựa chọn bảng màu và hoàn thiện yếu tố thị giác của sản phẩm. 
+II. Quá trình sáng tạo, chỉnh sửa và tích hợp  
+Trong dự án này, tôi sử dụng AI như một công cụ hỗ trợ phát triển ý tưởng, trong 
+khi bản thân giữ vai trò là người biên tập và thiết kế chính. Tỷ lệ đóng góp cá nhân 
+chiếm khoảng 60%, còn nội dung và tài nguyên do AI tạo ra chiếm khoảng 40%. 
+
+- Giai đoạn 1: Phát triển nội dung với Claude 
++ Prompt đã sử dụng: “Act as an educational content specialist. Create 
+an outline for a poster entitled “Time Management Skills for 
+University Students”. Include a catchy title, three practical strategies 
+and concise bullet points suitable for visual presentation.” 
++ Kết quả từ AI 
+- Claude đề xuất ba nội dung chính: 
++ Xác định ưu tiên công việc. 
++ Lập kế hoạch học tập hàng tuần. 
++ Giảm thiểu các yếu tố gây mất tập trung. 
++ Nội dung được sắp xếp logic và có tính khái quát cao 
++ Đóng góp sáng tạo cá nhân 
++ Sau khi xem xét nội dung do AI tạo ra, tôi nhận thấy một 
+số gợi ý còn mang tính lý thuyết và chưa phản ánh đúng 
+thực tế của sinh viên Việt Nam. 
++ Do đó, tôi đã: 
+- Bổ sung ví dụ về việc sử dụng lịch học điện tử. 
+- Thêm phương pháp Pomodoro. 
+- Viết lại các tiêu đề phụ theo phong cách ngắn gọn 
+hơn. 
+- Chỉnh sửa nội dung để phù hợp với thiết kế 
+infographic. 
+
+
+
+ 
+- Giai đoạn 2: Tạo hình minh họa bằng Dall-E 
++ Prompt đã sử dụng: “Modern flat illustration, university student 
+organizing study schedule, laptop, books, calendar, clock icons, 
+minimal style, vibrant academic colors, infographic illustration - ar 
+4:5” 
++ Kết quả từ AI 
+- Dall-E tạo ra nhiều hình ảnh có: 
++ Chất lượng cao. 
++ Màu sắc nổi bật. 
++ Bố cục hiện đại. 
++ Phù hợp với thiết kế poster giáo dục. 
++ Đóng góp sáng tạo cá nhân 
+- Một số hình ảnh có quá nhiều chi tiết trang trí khiến 
+poster trở nên rối mắt. 
+- Tôi tiến hành: 
++ Cắt bỏ các chi tiết không cần thiết. 
++ Chỉnh sửa màu sắc. 
+
+
++ Đồng bộ phong cách minh họa. 
++ Kết hợp thêm icon có sẵn để tăng tính trực quan. 
+ 
+- Giai đoạn 3: Hoàn thiện thiết kế với Canva AI 
++ Quá trình thực hiện 
+- Tôi sử dụng Canva AI để thử nghiệm các bảng màu và bố cục 
+khác nhau. 
+- AI đề xuất: 
++ Tông màu xanh dương. 
++ Tông màu cam – trắng. 
++ Bố cục theo chiều dọc. 
++ Đóng góp sáng tạo cá nhân 
+
+
+- Sau khi đánh giá các phương án do AI tạo ra, tôi lựa chọn bố 
+cục ba cột nhằm giúp người xem tiếp cận thông tin dễ dàng hơn. 
+- Ngoài ra, tôi còn: 
++ Điều chỉnh khoảng trắng. 
++ Thay đổi font chữ. 
++ Tạo tiêu đề chính nổi bật. 
++ Tăng kích thước biểu tượng để cải thiện khả năng đọc. 
+ 
+ 
+
+
+III. So sánh và Phân tích hiệu quả công cụ AI  
+- Claude 
++ Điểm mạnh 
+- Văn phong tự nhiên. 
+- Nội dung có tính liên kết cao. 
+- Khả năng diễn đạt tiếng Anh tốt 
++ Điểm hạn chế 
+- Một số gợi ý khá chung chung. 
+- Cần chỉnh sửa để tăng tính ứng dụng thực tế. 
+- Dall-E 
++ Điểm mạnh 
+- Hình ảnh có tính thẩm mỹ rất cao. 
+- Kiểm soát phong cách nghệ thuật tốt. 
+- Màu sắc hài hòa. 
++ Điểm hạn chế 
+- Khó chỉnh sửa chính xác từng chi tiết. 
+- Không phù hợp để tạo nhiều chữ trong hình. 
+- Canva AI 
++ Điểm mạnh 
+- Hỗ trợ thử nghiệm nhanh nhiều phương án thiết kế. 
+- Dễ sử dụng với sinh viên. 
+- Tiết kiệm thời gian xây dựng bố cục. 
++ Điểm hạn chế 
+- Một số gợi ý còn mang tính khuôn mẫu. 
+- Chưa thể thay thế hoàn toàn vai trò của nhà thiết kế. 
+Việc kết hợp Claude, Dall-E và Canva AI giúp tối ưu hóa toàn bộ quy trình sáng 
+tạo, từ xây dựng nội dung đến hoàn thiện sản phẩm cuối cùng. 
+IV. Phân tích vai trò của AI và các vấn đề đạo đức  
+AI tạo sinh đã thay đổi đáng kể cách thức tôi tiếp cận quá trình thiết kế nội dung 
+số. Thay vì bắt đầu từ một trang giấy trắng, tôi có thể nhanh chóng tạo ra ý tưởng, 
+hình ảnh và bố cục sơ bộ trong thời gian ngắn. 
+
+AI giúp giảm đáng kể thời gian sản xuất, đặc biệt ở các công đoạn như tìm kiếm ý 
+tưởng, minh họa và thử nghiệm thiết kế. Tuy nhiên, AI không thể thay thế hoàn 
+toàn vai trò của con người trong việc đánh giá tính phù hợp của nội dung, đảm bảo 
+tính chính xác và tạo ra giá trị sáng tạo mang tính cá nhân. 
+Bên cạnh đó, việc sử dụng AI cũng đặt ra nhiều vấn đề đạo đức như quyền sở hữu 
+trí tuệ, nguy cơ lan truyền thông tin sai lệch và sự phụ thuộc quá mức vào công 
+nghệ. Do đó, người sử dụng AI cần có tư duy phản biện, kiểm chứng thông tin và 
+minh bạch về mức độ tham gia của AI trong sản phẩm sáng tạo. 
+
+ 
