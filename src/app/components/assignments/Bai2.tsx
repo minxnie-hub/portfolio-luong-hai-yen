@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import AssignmentFrame from './AssignmentFrame';
 import { StructuredBody } from './StructuredTextAssignment';
+import { assetPath } from '../../utils/assets';
 
 const rows = [
   {
@@ -76,7 +77,7 @@ export default function Bai2() {
   const parts = useMemo(() => splitSource(content), [content]);
 
   useEffect(() => {
-    fetch('/assets/bai2-source.txt').then((response) => response.text()).then(setContent);
+    fetch(assetPath('/assets/bai2-source.txt')).then((response) => response.text()).then(setContent);
   }, []);
 
   return (

@@ -7,6 +7,7 @@ import Bai4 from './components/assignments/Bai4';
 import Bai5 from './components/assignments/Bai5';
 import Bai6 from './components/assignments/Bai6';
 import Bai7 from './components/assignments/Bai7';
+import { assetPath } from './utils/assets';
 
 type Artwork = { id: number; title: string; category: string; thumb: string };
 
@@ -80,7 +81,7 @@ export default function App() {
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between rounded-full border border-white/70 bg-white/75 px-5 shadow-[0_18px_60px_rgba(190,24,93,0.14)] backdrop-blur-xl">
           <div className="flex items-center gap-3">
             <span className="grid size-11 place-items-center rounded-full bg-gradient-to-br from-rose-100 via-pink-50 to-orange-100 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_10px_28px_rgba(219,39,119,0.22)]">
-              <img src="/assets/mark.png" alt="Logo Luong Hai Yen" className="size-8 object-contain" />
+              <img src={assetPath('/assets/mark.png')} alt="Logo Luong Hai Yen" className="size-8 object-contain" />
             </span>
             <span className="text-base font-bold tracking-tight text-pink-950 sm:text-lg">{'Portfolio CNS & AI'}</span>
           </div>
@@ -125,7 +126,7 @@ export default function App() {
                 <div className="absolute bottom-10 left-8 size-20 rounded-full bg-gradient-to-br from-sky-200 to-emerald-100 opacity-75 blur-[1px]" />
                 <div className="absolute bottom-24 right-12 size-5 rounded-full bg-pink-400/70 shadow-[0_0_34px_rgba(244,114,182,0.75)]" />
                 <div className="mx-auto grid aspect-square max-w-[300px] place-items-center rounded-full bg-[radial-gradient(circle_at_35%_25%,#fff_0%,#ffe4ef_42%,#fed7aa_100%)] shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_24px_80px_rgba(219,39,119,0.22)]">
-                  <img src="/assets/mark.png" alt="Logo Luong Hai Yen" className="w-[78%] drop-shadow-[0_22px_28px_rgba(190,24,93,0.24)]" />
+                  <img src={assetPath('/assets/mark.png')} alt="Logo Luong Hai Yen" className="w-[78%] drop-shadow-[0_22px_28px_rgba(190,24,93,0.24)]" />
                 </div>
               </div>
             </div>
@@ -191,7 +192,7 @@ export default function App() {
                 className="group flex flex-col overflow-hidden rounded-[1.75rem] border border-white/80 bg-white shadow-[0_20px_55px_rgba(15,23,42,0.10)] transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:-translate-y-2 hover:rotate-[-0.35deg] hover:shadow-[0_32px_80px_rgba(190,24,93,0.20)] focus:outline-none focus-visible:ring-4 focus-visible:ring-pink-300"
               >
                 <span className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-pink-100 via-white to-orange-100 p-3">
-                  <img src={artwork.thumb} alt="" className="size-full object-cover transition duration-500 group-hover:scale-105" />
+                  <img src={assetPath(artwork.thumb)} alt="" className="size-full object-cover transition duration-500 group-hover:scale-105" />
                 </span>
                 <span className="flex flex-1 flex-col justify-between p-6">
                   <span className="text-lg font-semibold leading-7 text-pink-900">{artwork.title}</span>

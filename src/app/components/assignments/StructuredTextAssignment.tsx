@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import AssignmentFrame from './AssignmentFrame';
+import { assetPath } from '../../utils/assets';
 
 type Props = {
   number: number;
@@ -18,9 +19,9 @@ type Block =
 function normalizeText(text: string) {
   return text
     .replace(/\r/g, '')
-    .replace(/[“”]/g, '"')
-    .replace(/[‘’]/g, "'")
-    .replace(/–/g, '-')
+    .replace(/[\u201c\u201d]/g, '"')
+    .replace(/[\u2018\u2019]/g, "'")
+    .replace(/\u2013/g, '-')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
 }
@@ -48,7 +49,7 @@ function parseBlocks(text: string): Block[] {
   for (const line of lines) {
     const heading = /^(I{1,3}|IV|V|VI|VII|VIII|IX|X)\.\s+/.test(line);
     const subheading = /^(\d+\.|[A-Z]\.)\s+/.test(line) || /^[+-]\s+/.test(line);
-    const bullet = /^[●•]\s+/.test(line);
+    const bullet = /^[\u25cf\u2022]\s+/.test(line);
 
     if (heading) {
       flushParagraph();
@@ -59,7 +60,7 @@ function parseBlocks(text: string): Block[] {
 
     if (bullet) {
       flushParagraph();
-      list.push(line.replace(/^[●•]\s+/, ''));
+      list.push(line.replace(/^[\u25cf\u2022]\s+/, ''));
       continue;
     }
 
@@ -117,7 +118,7 @@ export default function StructuredTextAssignment({ number, title, source, images
   const [content, setContent] = useState('');
 
   useEffect(() => {
-    fetch(source).then((response) => response.text()).then(setContent);
+    fetch(assetPath(source)).then((response) => response.text()).then(setContent);
   }, [source]);
 
   return (
@@ -136,13 +137,13 @@ export default function StructuredTextAssignment({ number, title, source, images
           <div className="grid gap-5 sm:grid-cols-2">
             {images.map((image, index) => (
               <figure key={image} className="overflow-hidden rounded-2xl border border-white bg-white shadow-sm">
-                <img src={image} alt={`H\u00ecnh minh ch\u1ee9ng ${index + 1}`} className="w-full object-contain" />
+                <img src={assetPath(image)} alt={`H\u00ecnh minh ch\u1ee9ng ${index + 1}`} className="w-full object-contain" />
               </figure>
             ))}
             {extraImages.map((image) => (
               <figure key={image.src} className="overflow-hidden rounded-2xl border border-white bg-white shadow-sm">
                 <figcaption className="border-b border-orange-100 px-4 py-3 text-sm font-semibold text-slate-600">{image.title}</figcaption>
-                <img src={image.src} alt={image.title} className="w-full object-contain" />
+                <img src={assetPath(image.src)} alt={image.title} className="w-full object-contain" />
               </figure>
             ))}
           </div>

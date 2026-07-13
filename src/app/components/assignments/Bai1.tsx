@@ -1,4 +1,5 @@
 import AssignmentFrame from './AssignmentFrame';
+import { assetPath } from '../../utils/assets';
 
 export default function Bai1() {
   return (
@@ -9,7 +10,7 @@ export default function Bai1() {
     >
       <iframe
         title={'B\u00e0i 1 - n\u1ed9i dung g\u1ed1c'}
-        src="/assets/1.html"
+        src={assetPath('/assets/1.html')}
         className="h-[78dvh] min-h-[700px] w-full rounded-2xl border border-pink-100 bg-white"
       />
     </AssignmentFrame>
