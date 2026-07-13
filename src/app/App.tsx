@@ -63,7 +63,7 @@ export default function App() {
       <Shell>
         <nav className="relative z-10 border-b border-pink-100 bg-white/80 backdrop-blur">
           <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-            <a href="/" className="inline-flex items-center gap-2 font-semibold text-pink-800 hover:text-pink-600">
+            <a href={import.meta.env.BASE_URL} className="inline-flex items-center gap-2 font-semibold text-pink-800 hover:text-pink-600">
               <ArrowLeft size={18} />
               {'T\u1ea5t c\u1ea3 b\u00e0i t\u1eadp'}
             </a>
