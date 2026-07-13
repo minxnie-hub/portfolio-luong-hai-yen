@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowUpRight, Heart, Search } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight, BookOpen, CheckCircle2, Heart, Layers3, Search, Sparkles } from 'lucide-react';
 import type { ReactNode } from 'react';
 import Bai1 from './components/assignments/Bai1';
 import Bai2 from './components/assignments/Bai2';
@@ -38,6 +38,21 @@ const outcomes = [
   ['S\u00e1ng t\u1ea1o n\u1ed9i dung s\u1ed1', '\u1ee8ng d\u1ee5ng AI t\u1ea1o sinh trong poster, k\u1ebf ho\u1ea1ch n\u1ed9i dung v\u00e0 quy tr\u00ecnh ch\u1ec9nh s\u1eeda.'],
   ['AI c\u00f3 tr\u00e1ch nhi\u1ec7m', 'Nh\u1eadn di\u1ec7n v\u1ea5n \u0111\u1ec1 \u0111\u1ea1o \u0111\u1ee9c, minh b\u1ea1ch h\u00f3a vi\u1ec7c d\u00f9ng AI trong h\u1ecdc thu\u1eadt.'],
   ['H\u1ecdc li\u1ec7u c\u00e1 nh\u00e2n h\u00f3a', 'T\u1ea1o h\u1ecdc li\u1ec7u ngo\u1ea1i ng\u1eef ph\u00f9 h\u1ee3p tr\u00ecnh \u0111\u1ed9 v\u00e0 m\u1ee5c ti\u00eau h\u1ecdc t\u1eadp.'],
+];
+
+const courseHighlights = [
+  ['Mục tiêu', 'Gom bài nộp thành một portfolio web rõ ràng, dễ xem, dễ đối chiếu minh chứng.'],
+  ['Cách trình bày', 'Mỗi bài có trang riêng, chuyển nội dung PDF/DOCX thành HTML thay vì nhúng file tải xuống.'],
+  ['Minh chứng', 'Giữ bảng, ảnh, biểu đồ và phần trình bày quan trọng từ tài liệu gốc.'],
+];
+
+const requirementChecks = [
+  'Thông tin cá nhân và nhận diện portfolio',
+  'Danh mục đầy đủ 7 bài nộp trong học phần',
+  'Trang riêng cho từng bài, có điều hướng quay lại',
+  'Thumbnail preview cho từng sản phẩm',
+  'Logo và favicon nền trong suốt, không viền trắng',
+  'Có ảnh minh chứng khi tài liệu gốc cung cấp',
 ];
 
 function Shell({ children }: { children: ReactNode }) {
@@ -92,13 +107,13 @@ export default function App() {
       </nav>
 
       <main className="relative z-10">
-        <section className="container mx-auto grid items-center gap-10 px-6 pb-14 pt-16 lg:grid-cols-[1fr_430px] lg:pt-20">
+        <section className="container mx-auto grid items-center gap-10 px-6 pb-12 pt-14 lg:grid-cols-[1fr_360px] lg:pt-16">
           <div>
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/70 bg-white/70 px-4 py-2 shadow-[0_12px_32px_rgba(219,39,119,0.12)]">
               <Search className="size-4 text-pink-600" />
               <span className="text-sm text-pink-800">{'Portfolio h\u1ecdc ph\u1ea7n'}</span>
             </div>
-            <h1 className="max-w-4xl text-5xl font-black leading-[1.02] tracking-tight text-pink-950 sm:text-6xl lg:text-7xl">
+            <h1 className="max-w-4xl text-5xl font-black leading-[1.02] tracking-tight text-pink-950 sm:text-6xl lg:text-[4.4rem]">
               {'Nh\u1eadp m\u00f4n C\u00f4ng ngh\u1ec7 s\u1ed1 v\u00e0 \u1ee8ng d\u1ee5ng AI'}
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-700">
@@ -117,19 +132,42 @@ export default function App() {
               ))}
             </div>
           </div>
-          <div className="relative mx-auto w-full max-w-[430px]">
+          <div className="relative mx-auto w-full max-w-[360px]">
             <div className="absolute -left-10 top-12 size-24 rounded-full bg-sky-200/70 blur-2xl" />
             <div className="absolute -right-8 bottom-8 size-28 rounded-full bg-orange-200/80 blur-2xl" />
             <div className="relative rounded-[2.25rem] border border-white/80 bg-white/45 p-2 shadow-[0_30px_90px_rgba(190,24,93,0.22)]">
-              <div className="relative overflow-hidden rounded-[1.8rem] bg-gradient-to-br from-white via-rose-50 to-orange-50 p-10 shadow-[inset_0_1px_0_rgba(255,255,255,0.9)]">
+              <div className="relative overflow-hidden rounded-[1.8rem] bg-gradient-to-br from-white via-rose-50 to-orange-50 p-8 shadow-[inset_0_1px_0_rgba(255,255,255,0.9)]">
                 <div className="absolute right-8 top-8 size-16 rounded-full bg-gradient-to-br from-orange-200 to-pink-200 opacity-80 blur-[1px]" />
                 <div className="absolute bottom-10 left-8 size-20 rounded-full bg-gradient-to-br from-sky-200 to-emerald-100 opacity-75 blur-[1px]" />
                 <div className="absolute bottom-24 right-12 size-5 rounded-full bg-pink-400/70 shadow-[0_0_34px_rgba(244,114,182,0.75)]" />
-                <div className="mx-auto grid aspect-square max-w-[300px] place-items-center rounded-full bg-[radial-gradient(circle_at_35%_25%,#fff_0%,#ffe4ef_42%,#fed7aa_100%)] shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_24px_80px_rgba(219,39,119,0.22)]">
-                  <img src={assetPath('/assets/mark.png')} alt="Logo Luong Hai Yen" className="w-[78%] drop-shadow-[0_22px_28px_rgba(190,24,93,0.24)]" />
+                <div className="mx-auto grid aspect-square max-w-[240px] place-items-center rounded-full bg-[radial-gradient(circle_at_35%_25%,#fff_0%,#ffe4ef_42%,#fed7aa_100%)] shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_24px_80px_rgba(219,39,119,0.22)]">
+                  <img src={assetPath('/assets/mark.png')} alt="Logo Luong Hai Yen" className="w-[74%] drop-shadow-[0_22px_28px_rgba(190,24,93,0.24)]" />
+                </div>
+                <div className="relative mt-7 rounded-3xl border border-white/80 bg-white/70 p-5 text-center shadow-[0_16px_44px_rgba(190,24,93,0.10)]">
+                  <p className="text-xs font-bold uppercase tracking-[0.22em] text-pink-600">{'Student Portfolio'}</p>
+                  <p className="mt-2 text-xl font-black text-slate-950">{'Lương Hải Yến'}</p>
+                  <p className="mt-1 text-sm font-semibold text-slate-500">{'MSSV 25041239'}</p>
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className="container mx-auto px-6 pb-14">
+          <div className="grid gap-5 lg:grid-cols-3">
+            {courseHighlights.map(([title, body], index) => {
+              const icons = [BookOpen, Layers3, Sparkles];
+              const Icon = icons[index];
+              return (
+                <div key={title} className="group rounded-[1.7rem] border border-white/80 bg-white/70 p-6 shadow-[0_18px_55px_rgba(190,24,93,0.11)] backdrop-blur transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:-translate-y-1 hover:bg-white/90 hover:shadow-[0_28px_75px_rgba(190,24,93,0.17)]">
+                  <div className="mb-5 grid size-12 place-items-center rounded-2xl bg-gradient-to-br from-pink-500 to-orange-400 text-white shadow-[0_14px_34px_rgba(219,39,119,0.28)]">
+                    <Icon className="size-5" />
+                  </div>
+                  <h2 className="text-xl font-black text-slate-950">{title}</h2>
+                  <p className="mt-3 text-sm leading-7 text-slate-600">{body}</p>
+                </div>
+              );
+            })}
           </div>
         </section>
 
@@ -149,6 +187,42 @@ export default function App() {
               ))}
             </div>
           </div>
+          </div>
+        </section>
+
+        <section className="container mx-auto px-6 pb-16">
+          <div className="grid gap-8 lg:grid-cols-[0.92fr_1.08fr]">
+            <div className="rounded-[2rem] border border-pink-100/80 bg-gradient-to-br from-pink-600 via-rose-500 to-orange-400 p-8 text-white shadow-[0_28px_80px_rgba(219,39,119,0.24)]">
+              <p className="text-sm font-bold text-white/80">{'Tổng quan học phần'}</p>
+              <h2 className="mt-3 max-w-xl text-3xl font-black leading-tight">{'Một portfolio để đọc nhanh, mở sâu từng bài khi cần.'}</h2>
+              <p className="mt-5 max-w-xl leading-8 text-white/90">
+                {'Phần đầu trang đóng vai trò như bìa portfolio: cho biết người thực hiện, học phần, phạm vi bài nộp và trạng thái hoàn thiện. Phần dưới là danh mục 7 sản phẩm có trang chi tiết riêng.'}
+              </p>
+              <div className="mt-7 grid gap-3 sm:grid-cols-3">
+                {[
+                  ['01', 'Bìa portfolio'],
+                  ['02', 'Năng lực học phần'],
+                  ['03', 'Danh mục bài'],
+                ].map(([step, label]) => (
+                  <div key={label} className="rounded-2xl border border-white/25 bg-white/18 p-4 backdrop-blur">
+                    <p className="text-2xl font-black">{step}</p>
+                    <p className="mt-1 text-sm font-semibold text-white/85">{label}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="rounded-[2rem] border border-white/80 bg-white/78 p-7 shadow-[0_24px_70px_rgba(15,23,42,0.08)]">
+              <p className="text-sm font-semibold text-pink-700">{'Checklist portfolio'}</p>
+              <h2 className="mt-2 text-2xl font-bold text-slate-950">{'Các phần đã được chuẩn bị để đáp ứng yêu cầu bài nộp'}</h2>
+              <div className="mt-6 grid gap-3">
+                {requirementChecks.map((item) => (
+                  <div key={item} className="flex items-start gap-3 rounded-2xl border border-slate-200/70 bg-gradient-to-br from-white to-pink-50/45 p-4 shadow-[0_10px_28px_rgba(15,23,42,0.04)]">
+                    <CheckCircle2 className="mt-0.5 size-5 shrink-0 text-pink-600" />
+                    <p className="text-sm font-semibold leading-6 text-slate-700">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </section>
 
