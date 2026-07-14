@@ -171,25 +171,6 @@ export default function App() {
           </div>
         </section>
 
-        <section className="container mx-auto px-6 pb-14">
-          <div className="rounded-[2rem] border border-white/80 bg-white/65 p-2 shadow-[0_24px_70px_rgba(190,24,93,0.12)]">
-          <div className="rounded-[1.55rem] bg-white/85 p-6 md:p-8">
-            <div className="mb-6">
-              <p className="text-sm font-semibold text-pink-700">{'H\u1ed3 s\u01a1 sinh vi\u00ean'}</p>
-              <h2 className="mt-2 text-2xl font-bold text-slate-950">{'Th\u00f4ng tin c\u00e1 nh\u00e2n'}</h2>
-            </div>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              {profile.map(([label, value]) => (
-                <div key={label} className="rounded-2xl border border-pink-100/80 bg-gradient-to-br from-white to-rose-50/60 p-5 shadow-[0_12px_32px_rgba(190,24,93,0.08)]">
-                  <p className="text-sm font-semibold text-pink-700">{label}</p>
-                  <p className="mt-2 text-lg font-bold leading-7 text-slate-900">{value}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-          </div>
-        </section>
-
         <section className="container mx-auto px-6 pb-16">
           <div className="grid gap-8 lg:grid-cols-[0.92fr_1.08fr]">
             <div className="rounded-[2rem] border border-pink-100/80 bg-gradient-to-br from-pink-600 via-rose-500 to-orange-400 p-8 text-white shadow-[0_28px_80px_rgba(219,39,119,0.24)]">
@@ -277,6 +258,32 @@ export default function App() {
                 </span>
               </a>
             ))}
+          </div>
+        </section>
+
+        <section className="container mx-auto px-6 pb-24">
+          <div className="rounded-[2rem] border border-white/80 bg-white/65 p-2 shadow-[0_24px_70px_rgba(190,24,93,0.12)]">
+            <div className="overflow-hidden rounded-[1.55rem] bg-white/85 p-6 md:p-8">
+              <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
+                <div>
+                  <p className="text-sm font-semibold uppercase tracking-[0.22em] text-pink-700">{'Tổng kết'}</p>
+                  <h2 className="mt-3 text-3xl font-black leading-tight text-slate-950 sm:text-4xl">
+                    {'Portfolio hoàn thiện, đủ thông tin người thực hiện và toàn bộ bài nộp.'}
+                  </h2>
+                  <p className="mt-5 max-w-2xl leading-8 text-slate-700">
+                    {'Phần này gom lại thông tin nhận diện chính để người xem dễ đối chiếu sau khi đã xem danh mục sản phẩm và các trang chi tiết.'}
+                  </p>
+                </div>
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {profile.map(([label, value]) => (
+                    <div key={label} className="rounded-[1.35rem] border border-pink-100/80 bg-gradient-to-br from-white to-rose-50/70 p-5 shadow-[0_12px_32px_rgba(190,24,93,0.08)] transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:-translate-y-1 hover:shadow-[0_18px_46px_rgba(190,24,93,0.14)]">
+                      <p className="text-sm font-semibold text-pink-700">{label}</p>
+                      <p className="mt-2 text-lg font-bold leading-7 text-slate-900">{value}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>
