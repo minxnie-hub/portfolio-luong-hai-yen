@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowUpRight, BookOpen, CheckCircle2, Heart, Layers3, Search, Sparkles } from 'lucide-react';
+import { ArrowLeft, BookOpenText, Folder, Handshake, PenTool, Search, ShieldCheck, Sparkles } from 'lucide-react';
 import type { ReactNode } from 'react';
 import Bai1 from './components/assignments/Bai1';
 import Bai2 from './components/assignments/Bai2';
@@ -9,60 +9,37 @@ import Bai6 from './components/assignments/Bai6';
 import Bai7 from './components/assignments/Bai7';
 import { assetPath } from './utils/assets';
 
-type Artwork = { id: number; title: string; category: string; thumb: string };
+type Artwork = { id: number; title: string; description: string; tags: string[]; accent: string; icon: ReactNode };
 
 const artworks: Artwork[] = [
-  { id: 1, title: 'B\u00e0i 1: Thi\u1ebft k\u1ebf Portfolio c\u00e1 nh\u00e2n', category: 'Qu\u1ea3n l\u00fd t\u1ec7p', thumb: '/assets/thumb1.png' },
-  { id: 2, title: 'B\u00e0i 2: T\u00ecm ki\u1ebfm th\u00f4ng tin h\u1ecdc thu\u1eadt', category: 'Nghi\u00ean c\u1ee9u v\u1edbi AI', thumb: '/assets/thumb2.png' },
-  { id: 3, title: 'B\u00e0i 3: Prompt Engineering', category: 'Th\u1ef1c h\u00e0nh AI', thumb: '/assets/thumb3.png' },
-  { id: 4, title: 'B\u00e0i 4: H\u1ee3p t\u00e1c tr\u1ef1c tuy\u1ebfn', category: 'D\u1ef1 \u00e1n nh\u00f3m', thumb: '/assets/thumb4.png' },
-  { id: 5, title: 'B\u00e0i 5: S\u00e1ng t\u1ea1o n\u1ed9i dung s\u1ed1', category: 'Generative AI', thumb: '/assets/thumb5.png' },
-  { id: 6, title: 'B\u00e0i 6: AI c\u00f3 tr\u00e1ch nhi\u1ec7m', category: '\u0110\u1ea1o \u0111\u1ee9c h\u1ecdc thu\u1eadt', thumb: '/assets/thumb6.png' },
-  { id: 7, title: 'B\u00e0i 7: H\u1ecdc li\u1ec7u ngo\u1ea1i ng\u1eef c\u00e1 nh\u00e2n h\u00f3a', category: 'AI trong h\u1ecdc t\u1eadp', thumb: '/assets/thumb7.png' },
+  { id: 1, title: 'Thao tác cơ bản với tệp tin và thư mục', description: 'Tạo cấu trúc lưu trữ, chuẩn hóa tên tệp và dựng phiên bản portfolio HTML đầu tiên.', tags: ['Finder', 'HTML'], accent: 'bg-[#dff5e7] text-[#168a48]', icon: <Folder size={24} /> },
+  { id: 2, title: 'Tìm kiếm và đánh giá thông tin học thuật', description: 'Tìm tám nghiên cứu về AI trong giáo dục ngôn ngữ và đánh giá độ tin cậy của từng nguồn.', tags: ['Google Scholar', 'DOI'], accent: 'bg-[#ffefad] text-[#a97000]', icon: <Search size={24} /> },
+  { id: 3, title: 'Viết prompt hiệu quả cho tác vụ học tập', description: 'So sánh prompt cơ bản, cải tiến và nâng cao qua ba tình huống học ngoại ngữ.', tags: ['Role prompting', 'IELTS'], accent: 'bg-[#dcecff] text-[#246fc9]', icon: <PenTool size={24} /> },
+  { id: 4, title: 'Sử dụng công cụ hợp tác trực tuyến', description: 'Phối hợp dự án nhóm bằng Trello, Google Docs, Drive, Zalo và Google Meet.', tags: ['Trello', 'Google Drive'], accent: 'bg-[#dff5e7] text-[#168a48]', icon: <Handshake size={24} /> },
+  { id: 5, title: 'Dùng AI tạo sinh để sáng tạo nội dung số', description: 'Kết hợp Claude, DALL·E và Canva để thiết kế poster quản lý thời gian.', tags: ['Claude', 'Canva AI'], accent: 'bg-[#ffdcec] text-[#d93683]', icon: <Sparkles size={24} /> },
+  { id: 6, title: 'Sử dụng AI có trách nhiệm trong học tập', description: 'Đối chiếu chính sách, thử nghiệm một nhiệm vụ thật và xây dựng sáu nguyên tắc cá nhân.', tags: ['ULIS Policy', 'Liêm chính'], accent: 'bg-[#e7e0ff] text-[#6845d6]', icon: <ShieldCheck size={24} /> },
+  { id: 7, title: 'Tạo học liệu ngoại ngữ cá nhân hóa bằng AI', description: 'Thiết kế bộ bài đọc, ngữ pháp, nói và viết cho người học IELTS 5.5–6.0.', tags: ['Gemini', 'IELTS'], accent: 'bg-[#dcefed] text-[#187a6b]', icon: <BookOpenText size={24} /> },
 ];
 
 const assignments = [<Bai1 />, <Bai2 />, <Bai3 />, <Bai4 />, <Bai5 />, <Bai6 />, <Bai7 />];
 
-const profile = [
-  ['H\u1ecd v\u00e0 t\u00ean', 'L\u01b0\u01a1ng H\u1ea3i Y\u1ebfn'],
-  ['MSSV', '25041239'],
-  ['L\u1edbp', '25E31 \u0110\u1ea1i h\u1ecdc Ngo\u1ea1i ng\u1eef'],
-  ['M\u00e3 l\u1edbp', 'VNU1001_E252060'],
-];
-
-const outcomes = [
-  ['Qu\u1ea3n l\u00fd t\u1ec7p v\u00e0 portfolio', 'S\u1eafp x\u1ebfp t\u00e0i li\u1ec7u h\u1ecdc t\u1eadp, tr\u00ecnh b\u00e0y s\u1ea3n ph\u1ea9m c\u00e1 nh\u00e2n d\u1ea1ng website.'],
-  ['T\u00ecm ki\u1ebfm v\u00e0 \u0111\u00e1nh gi\u00e1 ngu\u1ed3n', 'L\u1ef1a ch\u1ecdn ngu\u1ed3n h\u1ecdc thu\u1eadt, \u0111\u00e1nh gi\u00e1 \u0111\u1ed9 tin c\u1eady v\u00e0 tr\u00edch d\u1eabn r\u00f5 r\u00e0ng.'],
-  ['Prompt Engineering', 'Thi\u1ebft k\u1ebf prompt theo nhi\u1ec1u m\u1ee9c \u0111\u1ed9 \u0111\u1ec3 t\u1ea1o \u0111\u1ea7u ra ph\u00f9 h\u1ee3p v\u1edbi b\u1ed1i c\u1ea3nh h\u1ecdc t\u1eadp.'],
-  ['H\u1ee3p t\u00e1c tr\u1ef1c tuy\u1ebfn', 'S\u1eed d\u1ee5ng Trello, Google Docs, Drive, Zalo v\u00e0 Meet \u0111\u1ec3 ph\u1ed1i h\u1ee3p d\u1ef1 \u00e1n nh\u00f3m.'],
-  ['S\u00e1ng t\u1ea1o n\u1ed9i dung s\u1ed1', '\u1ee8ng d\u1ee5ng AI t\u1ea1o sinh trong poster, k\u1ebf ho\u1ea1ch n\u1ed9i dung v\u00e0 quy tr\u00ecnh ch\u1ec9nh s\u1eeda.'],
-  ['AI c\u00f3 tr\u00e1ch nhi\u1ec7m', 'Nh\u1eadn di\u1ec7n v\u1ea5n \u0111\u1ec1 \u0111\u1ea1o \u0111\u1ee9c, minh b\u1ea1ch h\u00f3a vi\u1ec7c d\u00f9ng AI trong h\u1ecdc thu\u1eadt.'],
-  ['H\u1ecdc li\u1ec7u c\u00e1 nh\u00e2n h\u00f3a', 'T\u1ea1o h\u1ecdc li\u1ec7u ngo\u1ea1i ng\u1eef ph\u00f9 h\u1ee3p tr\u00ecnh \u0111\u1ed9 v\u00e0 m\u1ee5c ti\u00eau h\u1ecdc t\u1eadp.'],
-];
-
 const courseHighlights = [
-  ['Mục tiêu', 'Gom bài nộp thành một portfolio web rõ ràng, dễ xem, dễ đối chiếu minh chứng.'],
-  ['Cách trình bày', 'Mỗi bài có trang riêng, chuyển nội dung PDF/DOCX thành HTML thay vì nhúng file tải xuống.'],
-  ['Minh chứng', 'Giữ bảng, ảnh, biểu đồ và phần trình bày quan trọng từ tài liệu gốc.'],
+  ['AI', 'Nắm vững nền tảng AI', 'Tra cứu, khai thác thông tin học tập hiệu quả và có kiểm chứng.'],
+  ['Prompt', 'Viết prompt hiệu quả', 'Tối ưu hóa quá trình học tập, tư duy và sáng tạo nội dung.'],
+  ['Teamwork', 'Hợp tác trong môi trường số', 'Giao tiếp linh hoạt, quản lý tài nguyên và phối hợp dự án trực tuyến.'],
+  ['Ethics', 'Liêm chính học thuật', 'Sử dụng AI minh bạch, có trách nhiệm và bảo vệ dữ liệu cá nhân.'],
 ];
 
-const requirementChecks = [
-  'Thông tin cá nhân và nhận diện portfolio',
-  'Danh mục đầy đủ 7 bài nộp trong học phần',
-  'Trang riêng cho từng bài, có điều hướng quay lại',
-  'Thumbnail preview cho từng sản phẩm',
-  'Logo và favicon nền trong suốt, không viền trắng',
-  'Có ảnh minh chứng khi tài liệu gốc cung cấp',
-];
+const skillChips = ['Tư duy phản biện', 'Tìm kiếm học thuật', 'Prompt engineering', 'Sáng tạo nội dung số', 'Quản lý dự án nhóm', 'Liêm chính học thuật'];
 
 function Shell({ children }: { children: ReactNode }) {
   return (
-    <div className="min-h-screen overflow-hidden bg-[#fff9f7] font-sans text-slate-900">
+    <div className="min-h-screen overflow-hidden bg-[#f1f3ed] font-sans text-[#1f2937]">
       <div className="pointer-events-none fixed inset-0 overflow-hidden" aria-hidden="true">
-        <div className="absolute -left-32 top-[-18rem] size-[44rem] rounded-full bg-[#ffd6e7]/70 blur-3xl" />
-        <div className="absolute right-[-16rem] top-40 size-[42rem] rounded-full bg-[#ffdfb8]/70 blur-3xl" />
-        <div className="absolute bottom-[-20rem] left-[18%] size-[46rem] rounded-full bg-[#dbeafe]/55 blur-3xl" />
-        <div className="absolute right-[18%] top-[22rem] size-80 rounded-full bg-[#bbf7d0]/35 blur-3xl" />
+        <div className="absolute -left-32 top-[-18rem] size-[44rem] rounded-full bg-[#cfe6d8]/50 blur-3xl" />
+        <div className="absolute right-[-16rem] top-40 size-[42rem] rounded-full bg-[#ead9c1]/48 blur-3xl" />
+        <div className="absolute bottom-[-20rem] left-[18%] size-[46rem] rounded-full bg-[#d8e5dc]/45 blur-3xl" />
+        <div className="portfolio-noise absolute inset-0" />
       </div>
       {children}
     </div>
@@ -76,9 +53,9 @@ export default function App() {
   if (current) {
     return (
       <Shell>
-        <nav className="relative z-10 border-b border-pink-100 bg-white/80 backdrop-blur">
+        <nav className="relative z-10 border-b border-[#d4dce2] bg-white shadow-[0_4px_20px_rgba(30,40,60,0.06)]">
           <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-            <a href={import.meta.env.BASE_URL} className="inline-flex items-center gap-2 font-semibold text-pink-800 hover:text-pink-600">
+            <a href={import.meta.env.BASE_URL} className="inline-flex items-center gap-2 font-semibold text-[#185742] hover:text-[#37745d]">
               <ArrowLeft size={18} />
               {'T\u1ea5t c\u1ea3 b\u00e0i t\u1eadp'}
             </a>
@@ -93,7 +70,7 @@ export default function App() {
   return (
     <Shell>
       <nav className="relative z-20 px-6 pt-6">
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between rounded-full border border-white/70 bg-white/75 px-5 shadow-[0_18px_60px_rgba(190,24,93,0.14)] backdrop-blur-xl">
+        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between rounded-full border border-[#dce1e8] bg-white px-5 shadow-[0_12px_30px_rgba(30,40,60,0.10)]">
           <div className="flex items-center gap-3">
             <span className="grid size-11 place-items-center rounded-full bg-gradient-to-br from-rose-100 via-pink-50 to-orange-100 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_10px_28px_rgba(219,39,119,0.22)]">
               <img src={assetPath('/assets/mark.png')} alt="Logo Luong Hai Yen" className="size-8 object-contain" />
@@ -125,7 +102,7 @@ export default function App() {
                 ['7', 'Nh\u00f3m n\u0103ng l\u1ef1c'],
                 ['1', 'Portfolio web'],
               ].map(([value, label]) => (
-                <div key={label} className="rounded-3xl border border-white/80 bg-white/75 p-5 shadow-[0_14px_40px_rgba(190,24,93,0.11)] transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(190,24,93,0.18)]">
+                <div key={label} className="rounded-3xl border border-[#dce1e8] bg-white p-5 shadow-[0_12px_30px_rgba(30,40,60,0.10)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_38px_rgba(30,40,60,0.14)]">
                   <p className="bg-gradient-to-br from-pink-600 to-orange-500 bg-clip-text text-4xl font-black text-transparent">{value}</p>
                   <p className="mt-1 text-sm font-semibold text-slate-600">{label}</p>
                 </div>
@@ -154,30 +131,28 @@ export default function App() {
         </section>
 
         <section className="container mx-auto px-6 pb-14">
-          <div className="grid gap-5 lg:grid-cols-3">
-            {courseHighlights.map(([title, body], index) => {
-              const icons = [BookOpen, Layers3, Sparkles];
-              const Icon = icons[index];
-              return (
-                <div key={title} className="group rounded-[1.7rem] border border-white/80 bg-white/70 p-6 shadow-[0_18px_55px_rgba(190,24,93,0.11)] backdrop-blur transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:-translate-y-1 hover:bg-white/90 hover:shadow-[0_28px_75px_rgba(190,24,93,0.17)]">
-                  <div className="mb-5 grid size-12 place-items-center rounded-2xl bg-gradient-to-br from-pink-500 to-orange-400 text-white shadow-[0_14px_34px_rgba(219,39,119,0.28)]">
-                    <Icon className="size-5" />
-                  </div>
-                  <h2 className="text-xl font-black text-slate-950">{title}</h2>
-                  <p className="mt-3 text-sm leading-7 text-slate-600">{body}</p>
-                </div>
-              );
-            })}
+          <div className="mb-8">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#37745d]">{'Định hướng học tập'}</p>
+            <h2 className="mt-2 text-4xl font-black tracking-tight text-[#17372d]">{'Mục tiêu học tập'}</h2>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {courseHighlights.map(([tag, title, body]) => (
+              <div key={title} className="rounded-[1.5rem] border border-[#dce1e8] bg-white p-7 shadow-[0_12px_30px_rgba(30,40,60,0.10)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_38px_rgba(30,40,60,0.14)]">
+                <span className="inline-flex rounded-full border border-[#bedbc9] bg-[#d7ecdf] px-3 py-1 text-xs font-extrabold text-[#185742]">{tag}</span>
+                <h3 className="mt-7 text-lg font-extrabold leading-snug text-[#1f2937]">{title}</h3>
+                <p className="mt-4 text-sm leading-7 text-[#4b5563]">{body}</p>
+              </div>
+            ))}
           </div>
         </section>
 
         <section className="container mx-auto px-6 pb-16">
-          <div className="grid gap-8 lg:grid-cols-[0.92fr_1.08fr]">
-            <div className="rounded-[2rem] border border-pink-100/80 bg-gradient-to-br from-pink-600 via-rose-500 to-orange-400 p-8 text-white shadow-[0_28px_80px_rgba(219,39,119,0.24)]">
-              <p className="text-sm font-bold text-white/80">{'Tổng quan học phần'}</p>
+          <div className="grid gap-8">
+            <div className="rounded-[2rem] border border-[#d7e4dc] bg-[#17372d] p-8 text-[#f7f8f2] shadow-[0_28px_70px_rgba(23,55,45,0.18)]">
+              <p className="text-sm font-bold text-[#b9d9c5]">{'Tổng quan học phần'}</p>
               <h2 className="mt-3 max-w-xl text-3xl font-black leading-tight">{'Một portfolio để đọc nhanh, mở sâu từng bài khi cần.'}</h2>
-              <p className="mt-5 max-w-xl leading-8 text-white/90">
-                {'Phần đầu trang đóng vai trò như bìa portfolio: cho biết người thực hiện, học phần, phạm vi bài nộp và trạng thái hoàn thiện. Phần dưới là danh mục 7 sản phẩm có trang chi tiết riêng.'}
+              <p className="mt-5 max-w-xl leading-8 text-[#d8e7dd]">
+                {'Phần đầu trang cho biết người thực hiện, học phần, phạm vi bài nộp và trạng thái hoàn thiện. Phần dưới là danh mục 7 sản phẩm có trang chi tiết riêng.'}
               </p>
               <div className="mt-7 grid gap-3 sm:grid-cols-3">
                 {[
@@ -185,48 +160,9 @@ export default function App() {
                   ['02', 'Năng lực học phần'],
                   ['03', 'Danh mục bài'],
                 ].map(([step, label]) => (
-                  <div key={label} className="rounded-2xl border border-white/25 bg-white/18 p-4 backdrop-blur">
+                  <div key={label} className="rounded-2xl border border-[#648477] bg-[#294a3e] p-4">
                     <p className="text-2xl font-black">{step}</p>
-                    <p className="mt-1 text-sm font-semibold text-white/85">{label}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="rounded-[2rem] border border-white/80 bg-white/78 p-7 shadow-[0_24px_70px_rgba(15,23,42,0.08)]">
-              <p className="text-sm font-semibold text-pink-700">{'Checklist portfolio'}</p>
-              <h2 className="mt-2 text-2xl font-bold text-slate-950">{'Các phần đã được chuẩn bị để đáp ứng yêu cầu bài nộp'}</h2>
-              <div className="mt-6 grid gap-3">
-                {requirementChecks.map((item) => (
-                  <div key={item} className="flex items-start gap-3 rounded-2xl border border-slate-200/70 bg-gradient-to-br from-white to-pink-50/45 p-4 shadow-[0_10px_28px_rgba(15,23,42,0.04)]">
-                    <CheckCircle2 className="mt-0.5 size-5 shrink-0 text-pink-600" />
-                    <p className="text-sm font-semibold leading-6 text-slate-700">{item}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="container mx-auto px-6 pb-16">
-          <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-            <div className="rounded-[2rem] border border-white/80 bg-gradient-to-br from-white/90 to-rose-50/80 p-7 shadow-[0_24px_70px_rgba(190,24,93,0.12)]">
-              <p className="text-sm font-semibold text-pink-700">{'M\u1ee5c ti\u00eau portfolio'}</p>
-              <h2 className="mt-2 text-2xl font-bold text-slate-950">{'Tr\u00ecnh b\u00e0y qu\u00e1 tr\u00ecnh h\u1ecdc t\u1eadp v\u00e0 s\u1ea3n ph\u1ea9m minh ch\u1ee9ng'}</h2>
-              <p className="mt-4 leading-8 text-slate-700">
-                {'Portfolio n\u00e0y t\u1ed5ng h\u1ee3p c\u00e1c s\u1ea3n ph\u1ea9m trong h\u1ecdc ph\u1ea7n theo d\u1ea1ng website: m\u1ed7i b\u00e0i c\u00f3 trang ri\u00eang, n\u1ed9i dung \u0111\u01b0\u1ee3c chuy\u1ec3n th\u00e0nh text web, b\u1ea3ng HTML v\u00e0 \u1ea3nh minh ch\u1ee9ng khi c\u00f3.'}
-              </p>
-              <p className="mt-4 leading-8 text-slate-700">
-                {'C\u00e1ch tr\u00ecnh b\u00e0y gi\u00fap ng\u01b0\u1eddi xem theo d\u00f5i \u0111\u01b0\u1ee3c n\u0103ng l\u1ef1c c\u00f4ng ngh\u1ec7 s\u1ed1, kh\u1ea3 n\u0103ng s\u1eed d\u1ee5ng AI v\u00e0 qu\u00e1 tr\u00ecnh t\u1ef1 \u0111\u00e1nh gi\u00e1 trong h\u1ecdc t\u1eadp.'}
-              </p>
-            </div>
-            <div className="rounded-[2rem] border border-white/80 bg-white/75 p-7 shadow-[0_24px_70px_rgba(14,116,144,0.10)]">
-              <p className="text-sm font-semibold text-pink-700">{'N\u0103ng l\u1ef1c th\u1ec3 hi\u1ec7n'}</p>
-              <h2 className="mt-2 text-2xl font-bold text-slate-950">{'Nh\u1eefng k\u1ef9 n\u0103ng \u0111\u01b0\u1ee3c minh ch\u1ee9ng qua b\u00e0i n\u1ed9p'}</h2>
-              <div className="mt-6 grid gap-4 sm:grid-cols-2">
-                {outcomes.map(([title, body]) => (
-                  <div key={title} className="rounded-2xl border border-slate-200/70 bg-gradient-to-br from-white to-slate-50 p-5 shadow-[0_10px_30px_rgba(15,23,42,0.06)] transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:-translate-y-1 hover:border-pink-200 hover:shadow-[0_18px_46px_rgba(190,24,93,0.12)]">
-                    <h3 className="font-bold text-slate-950">{title}</h3>
-                    <p className="mt-2 text-sm leading-7 text-slate-600">{body}</p>
+                    <p className="mt-1 text-sm font-semibold text-[#d8e7dd]">{label}</p>
                   </div>
                 ))}
               </div>
@@ -235,26 +171,26 @@ export default function App() {
         </section>
 
         <section className="container mx-auto px-6 pb-24">
-          <div className="mb-8">
-            <p className="text-sm font-semibold text-pink-700">{'Danh m\u1ee5c s\u1ea3n ph\u1ea9m'}</p>
-            <h2 className="mt-2 text-3xl font-bold text-slate-950">{'C\u00e1c b\u00e0i th\u1ef1c h\u00e0nh v\u00e0 b\u00e1o c\u00e1o'}</h2>
+          <div className="mb-8 max-w-2xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#37745d]">{'Danh m\u1ee5c s\u1ea3n ph\u1ea9m'}</p>
+            <h2 className="mt-2 text-4xl font-black tracking-tight text-[#17372d]">{'C\u00e1c b\u00e0i th\u1ef1c h\u00e0nh'}</h2>
+            <p className="mt-4 leading-7 text-[#60756d]">Mỗi bài được trình bày lại theo mục tiêu, nội dung tóm tắt, minh chứng và điều mình học được.</p>
           </div>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
             {artworks.map((artwork) => (
               <a
                 key={artwork.id}
                 href={`?bai=${artwork.id}`}
-                className="group flex flex-col overflow-hidden rounded-[1.75rem] border border-white/80 bg-white shadow-[0_20px_55px_rgba(15,23,42,0.10)] transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:-translate-y-2 hover:rotate-[-0.35deg] hover:shadow-[0_32px_80px_rgba(190,24,93,0.20)] focus:outline-none focus-visible:ring-4 focus-visible:ring-pink-300"
+                className="group relative min-h-64 overflow-hidden rounded-[1.5rem] border border-[#dce1e8] bg-white p-8 shadow-[0_12px_30px_rgba(30,40,60,0.10)] transition duration-300 hover:-translate-y-[3px] hover:border-[#ccd4df] hover:shadow-[0_20px_42px_rgba(30,40,60,0.15)] focus:outline-none focus-visible:ring-4 focus-visible:ring-[#9dc8ae] sm:p-9"
               >
-                <span className="aspect-[4/3] overflow-hidden bg-gradient-to-br from-pink-100 via-white to-orange-100 p-3">
-                  <img src={assetPath(artwork.thumb)} alt="" className="size-full object-cover transition duration-500 group-hover:scale-105" />
+                <span className="flex items-start justify-between">
+                  <span className="text-3xl font-black text-[#c9b8ef]">{String(artwork.id).padStart(2, '0')}</span>
+                  <span className={`grid size-12 place-items-center rounded-2xl shadow-[0_6px_16px_rgba(30,40,60,0.08)] ${artwork.accent}`}>{artwork.icon}</span>
                 </span>
-                <span className="flex flex-1 flex-col justify-between p-6">
-                  <span className="text-lg font-semibold leading-7 text-pink-900">{artwork.title}</span>
-                  <span className="mt-5 flex items-center justify-between">
-                    <span className="rounded-full bg-pink-100 px-3 py-1 text-sm font-medium text-pink-700">{artwork.category}</span>
-                    <ArrowUpRight className="size-5 text-pink-400" />
-                  </span>
+                <span className="mt-7 block max-w-md text-xl font-extrabold leading-7 text-[#1d2935]">{artwork.title}</span>
+                <span className="mt-4 block max-w-lg text-sm leading-7 text-[#4b5563]">{artwork.description}</span>
+                <span className="mt-6 flex flex-wrap gap-2">
+                  {artwork.tags.map((tag) => <span key={tag} className="rounded-full border border-[#d8cff4] bg-[#ebe6fa] px-3 py-1 text-xs font-bold text-[#6f5ac9]">{tag}</span>)}
                 </span>
               </a>
             ))}
@@ -262,37 +198,79 @@ export default function App() {
         </section>
 
         <section className="container mx-auto px-6 pb-24">
-          <div className="rounded-[2rem] border border-white/80 bg-white/65 p-2 shadow-[0_24px_70px_rgba(190,24,93,0.12)]">
-            <div className="overflow-hidden rounded-[1.55rem] bg-white/85 p-6 md:p-8">
-              <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
-                <div>
-                  <p className="text-sm font-semibold uppercase tracking-[0.22em] text-pink-700">{'Tổng kết'}</p>
-                  <h2 className="mt-3 text-3xl font-black leading-tight text-slate-950 sm:text-4xl">
-                    {'Portfolio hoàn thiện, đủ thông tin người thực hiện và toàn bộ bài nộp.'}
-                  </h2>
-                  <p className="mt-5 max-w-2xl leading-8 text-slate-700">
-                    {'Phần này gom lại thông tin nhận diện chính để người xem dễ đối chiếu sau khi đã xem danh mục sản phẩm và các trang chi tiết.'}
-                  </p>
-                </div>
-                <div className="grid gap-4 sm:grid-cols-2">
-                  {profile.map(([label, value]) => (
-                    <div key={label} className="rounded-[1.35rem] border border-pink-100/80 bg-gradient-to-br from-white to-rose-50/70 p-5 shadow-[0_12px_32px_rgba(190,24,93,0.08)] transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:-translate-y-1 hover:shadow-[0_18px_46px_rgba(190,24,93,0.14)]">
-                      <p className="text-sm font-semibold text-pink-700">{label}</p>
-                      <p className="mt-2 text-lg font-bold leading-7 text-slate-900">{value}</p>
-                    </div>
-                  ))}
-                </div>
+          <div className="rounded-[2rem] bg-[#17372d] p-8 text-[#f7f8f2] shadow-[0_24px_70px_rgba(23,55,45,0.18)]">
+            <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+              <div>
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#b9d9c5]">{'N\u0103ng l\u1ef1c th\u1ec3 hi\u1ec7n'}</p>
+                <h2 className="mt-4 max-w-xl text-4xl font-black leading-[1.05] sm:text-5xl">{'C\u00e1c k\u1ef9 n\u0103ng \u0111\u00e3 ph\u00e1t tri\u1ec3n'}</h2>
+                <p className="mt-5 max-w-xl leading-7 text-[#d8e7dd]">{'Qua m\u00f4n h\u1ecdc n\u00e0y, m\u00ecnh \u0111\u00e3 l\u00e0m ch\u1ee7 t\u01b0 duy AI v\u00e0 k\u1ef9 n\u0103ng khai th\u00e1c d\u1eef li\u1ec7u \u0111\u1ec3 bi\u1ebfn c\u00f4ng ngh\u1ec7 th\u00e0nh tr\u1ee3 l\u00fd h\u1ecdc t\u1eadp \u0111\u1eafc l\u1ef1c.'}</p>
               </div>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {skillChips.map((skill) => (
+                  <span key={skill} className="rounded-full border border-[#648477] bg-[#294a3e] px-4 py-3 text-center text-sm font-semibold text-[#f2f6ef]">{skill}</span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="container mx-auto px-6 pb-24">
+          <div className="overflow-hidden rounded-[2rem] border border-[#d7e4dc] bg-[#fffefa] shadow-[0_24px_70px_rgba(23,55,45,0.1)]">
+            <div className="grid gap-8 border-b border-[#d7e4dc] bg-[#edf3ee] p-7 sm:p-10 lg:grid-cols-[0.72fr_1.28fr] lg:items-end">
+              <div>
+                <p className="text-sm font-extrabold uppercase tracking-[0.22em] text-[#37745d]">Tổng kết</p>
+                <h2 className="mt-3 text-3xl font-black leading-tight text-[#17372d] sm:text-4xl">Nhìn lại hành trình làm portfolio</h2>
+              </div>
+              <p className="max-w-2xl text-base leading-8 text-[#526960]">
+                Portfolio này không chỉ gom lại bảy bài tập. Khi sắp xếp từng sản phẩm và đọc lại cách mình đã làm, mình nhận ra rõ hơn sự thay đổi từ chỗ dùng công cụ theo hướng dẫn sang biết lựa chọn, kiểm tra và chịu trách nhiệm với kết quả của mình.
+              </p>
+            </div>
+
+            <div className="grid gap-px bg-[#d7e4dc] lg:grid-cols-3">
+              <article className="bg-[#fffefa] p-7 sm:p-8">
+                <span className="text-5xl font-black text-[#dcefe4]">01</span>
+                <h3 className="mt-5 text-xl font-extrabold text-[#17372d]">Trải nghiệm của mình</h3>
+                <p className="mt-4 leading-8 text-[#60756d]">
+                  Quá trình làm portfolio buộc mình xem lại toàn bộ bài nộp thay vì chỉ đưa các tệp lên một chỗ. Có bài mình thấy kết quả khá trọn vẹn, cũng có bài cho thấy cách làm ban đầu còn dài và thiếu chọn lọc. Việc viết lại từng chặng giúp mình hiểu mình đã làm gì và vì sao kết quả thay đổi sau mỗi lần chỉnh sửa.
+                </p>
+              </article>
+
+              <article className="bg-[#fffefa] p-7 sm:p-8">
+                <span className="text-5xl font-black text-[#dcefe4]">02</span>
+                <h3 className="mt-5 text-xl font-extrabold text-[#17372d]">Kiến thức và kỹ năng</h3>
+                <p className="mt-4 leading-8 text-[#60756d]">
+                  Điều quan trọng nhất mình học được là cách tìm và kiểm chứng nguồn, viết prompt có mục tiêu, phối hợp công việc trực tuyến và sử dụng AI minh bạch. Mình cũng tiến bộ ở việc quản lý tệp, trình bày thông tin ngắn gọn và đánh giá đầu ra AI trước khi đưa vào sản phẩm học tập.
+                </p>
+              </article>
+
+              <article className="bg-[#fffefa] p-7 sm:p-8">
+                <span className="text-5xl font-black text-[#dcefe4]">03</span>
+                <h3 className="mt-5 text-xl font-extrabold text-[#17372d]">Điểm tâm đắc và thử thách</h3>
+                <p className="mt-4 leading-8 text-[#60756d]">
+                  Mình tâm đắc nhất với những sản phẩm có dấu ấn chỉnh sửa rõ ràng, đặc biệt là poster và bộ học liệu cá nhân hóa. Khó nhất là chọn phần thật sự cần giữ từ các báo cáo dài, ghép đúng ảnh minh chứng và duy trì cách trình bày thống nhất. Chính khâu chọn lọc này khiến portfolio phản ánh quá trình học tốt hơn một thư mục bài nộp thông thường.
+                </p>
+              </article>
+            </div>
+
+            <div className="flex items-center gap-4 bg-[#17372d] px-7 py-6 text-[#d8e7dd] sm:px-10">
+              <span className="h-px w-10 shrink-0 bg-[#f3c95c]" />
+              <p className="text-sm font-semibold leading-6">Sau cùng, điều mình muốn giữ lại không chỉ là sản phẩm hoàn thiện mà còn là thói quen làm việc có mục tiêu, có kiểm chứng và có tiếng nói riêng.</p>
             </div>
           </div>
         </section>
       </main>
 
-      <footer className="relative z-10 border-t border-pink-200 bg-white/60 py-8 text-pink-700">
-        <p className="flex items-center justify-center gap-2">
-          {'Th\u1ef1c hi\u1ec7n b\u1edfi L\u01b0\u01a1ng H\u1ea3i Y\u1ebfn'}
-          <Heart className="size-4 fill-pink-500 text-pink-500" />
-        </p>
+      <footer className="relative z-10 border-t border-[#3d6657] bg-[#17372d] text-[#f7f8f2]">
+        <div className="container mx-auto grid gap-8 px-6 py-9 sm:grid-cols-2 sm:py-11">
+          <div>
+            <p className="text-lg font-extrabold">Lương Hải Yến</p>
+            <p className="mt-2 text-sm font-medium leading-6 text-[#b9d9c5] sm:text-base">SV lớp 25E31 · MSSV: 25041239</p>
+          </div>
+          <div className="sm:text-right">
+            <p className="text-lg font-extrabold">Trường Đại học Ngoại ngữ - ĐHQGHN</p>
+            <p className="mt-2 text-sm font-medium leading-6 text-[#b9d9c5] sm:text-base">Nhập môn Công nghệ số và Ứng dụng AI · 2025-2026</p>
+          </div>
+        </div>
       </footer>
     </Shell>
   );
