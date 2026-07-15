@@ -53,7 +53,7 @@ export default function AssignmentStory({ number }: { number: number }) {
                   {stage.images.map((image) => (
                     <figure key={image.src} className="group overflow-hidden rounded-[1.1rem] border border-[#dce1e8] bg-white shadow-[0_6px_18px_rgba(30,40,60,0.07)]">
                       <div className="flex min-h-56 items-center justify-center overflow-hidden bg-white">
-                        <img src={assetPath(image.src)} alt={image.caption} className="max-h-[720px] w-full object-contain transition duration-500 group-hover:scale-[1.01]" />
+                        <img src={assetPath(image.src)} alt={image.caption} className="max-h-[500px] w-full object-contain transition duration-500 group-hover:scale-[1.01]" />
                       </div>
                       <figcaption className="border-t border-[#dce1e8] bg-[#f7f8f5] px-4 py-3 text-center text-xs font-semibold leading-5 text-[#5b6572] sm:text-sm">{image.caption}</figcaption>
                     </figure>

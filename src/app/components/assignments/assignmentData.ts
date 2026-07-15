@@ -54,7 +54,7 @@ export const assignmentData: AssignmentData[] = [
       {
         title: 'Sàng lọc và đối chiếu nguồn',
         description: 'Tám công trình được xem xét theo tác giả, nơi xuất bản, phương pháp, mức độ liên quan và khả năng kiểm chứng. Các nghiên cứu có DOI, dữ liệu thực nghiệm hoặc quy trình tổng quan rõ ràng được ưu tiên.',
-        images: [{ src: '/assets/thumb2.png', caption: 'Bảng tổng hợp tác giả, loại nguồn và mức xếp hạng.' }],
+
       },
       {
         title: 'Tổng hợp kết quả',
